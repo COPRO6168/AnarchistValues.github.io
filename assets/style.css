@@ -107,7 +107,7 @@ div.quadcolumn {
 }
 div.axis_name {
     color: #333333;
-    font-size: 19pt;
+    font-size: 20pt;
     font-family: 'Montserrat';
     display: inline-block;
     padding-bottom: 8.65pt;
@@ -178,7 +178,7 @@ div.axis_name {
     margin: -4px auto;
 }
 .arrow {
-    width: 60%;
+    width: 150px;
     height: auto;
 }
 div.explanation_blurb_left {
@@ -196,6 +196,7 @@ div.explanation_blurb_right {
 div.explanation_axis {
     width: 20.9%;
     vertical-align: top;
+    justify-content: center;
 }
 div.axis {
     width: 100%;
@@ -282,4 +283,19 @@ span.weight-300 {
     margin: 8pt;
     margin-left: auto;
     margin-right: auto;
+}
+
+#numOfQuestions {
+    font-weight: bold;
+    text-decoration: underline;
+}
+.theme {
+    margin-top: 20px;
+    padding-top: 20px;
+    text-indent: -16pt;
+    margin-left: 20pt;
+    font-size: 32pt;
+    letter-spacing: 0.03em;
+    text-align: center;
+    font-family: 'Montserrat';
 }
