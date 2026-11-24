@@ -1,0 +1,57 @@
+
+## Organisation
+
+### Einheit
+- Personen mit höheren Werten in "Plattform" identifizieren sich mehr mit zentralen Prinzipien des Plattformismus und fordern eher eine starke einheitliche Linie sowie klare strukturelle Abläufe für anarchistische Organisationen.
+- Personen mit höheren Werten in "Synthese" glauben, dass anarchistische Organisationen vielfältiger sein und mehrere Strömungen vereinen sollen. Sie sind zudem tendenziell gegen eine stark vereinheitlichte Linie.
+
+### Spezifizität
+- Personen mit höheren Werten in "Dualismus" sind eher für eine organisatorische Trennung der Massenebene und der Revolutionären und glauben, dass es eine eigenständige spezifisch anarchistische Organisation braucht.
+- Personen mit höheren Werten in "Unitär" lehnen eine separate Organisation ab und sind eher dafür, Revolutionäre und Massen in einer gemeinsamen Massenorganisation zu vereinen. Das sind typischweise Gewerkschaften.
+
+### Föderalismus
+- Personen mit höheren Werten in "Koordination" sind der Ansicht, dass gesellschaftliche Veränderungen effektiv nur durch größere organisatorische Zusammenhänge möglich sind, die eng miteinander zusammenarbeiten.
+- Personen mit höheren Werten in "Autonomie" sind gegen zu enge und stringente Organisationsstrukturen und sehen ein größeres Potenzial in kleineren Aktionsgruppen, deren Eigenständigkeit sie bewahren wollen.
+
+## Theorie
+
+### Philosophie
+- Personen mit höheren Werten in "Materialismus" sehen die Produktionsverhältnisse als zentralen Entscheidungsfaktor der Gesellschaft und glauben, dass diese die Ideen und das Handeln der Menschen maßgeblich prägen.
+- Personen mit höheren Werten in "Idealismus" sehen die Gesellschaft eher als Konsolidierung verschiedenster Ideen von Individuen in Form von Moral und Ethik an.
+
+### Methodik
+- Personen mit höheren Werten in "Dialektik" versuchen eher innere Gesetzmäßigkeiten und Widersprüche zu verstehen sowie zu analysieren, woher sie kommen und was sich aus ihnen inwiefern entwickeln kann.
+- Personen mit höheren Werten in "Empirie" betrachten die Umstände eher anhand statistisch vorliegender Daten und basieren ihre Analyse auf unmittelbar beobachtbare Phänomene.
+
+
+### Subjekt
+- Personen mit höheren Werten in "Klasse" sehen die Klassenzugehörigkeit einer Person als mehr essenziell an und betrachten demzufolge die momentan ausgebeutete Klasse als revolutionäres Subjekt.
+- Personen mit höheren Werten in "Identität" sehen verschiedene Unterdrückungsformen als eher gleichwertig an und gehen von vielen intersektional verflochtenen Subjekten aus.
+
+## Praxis
+
+### Radikalität
+- Personen mit höheren Werten in "Revolution" sind zumeist gegen parlamentarische Beteiligung und stehen dem schrittweisen, durch Reformen begleiteten Transformationsweg kritisch gegenüber.
+- Personen mit höheren Werten in "Reform" tendieren dazu, Parlamente, Wahlen und Reformen als Mittel zum Zweck zu nutzen, um Stück für Stück die gewünschte Gesellschaftsvision zu erreichen.
+
+### Militanz
+- Personen mit höheren Werten in "Gewalt" sind revolutionärer Gewalt weniger abgeneigt und sprechen sich oft für direkte bewaffnete Aufstände als Mittel zur Befreiung gegen staatliche Repressionsbehörden aus.
+- Personen mit höheren Werten in "Friedlich" sind Gewalt kritischer gegenüber eingestellt und sehen in ihr die Gefahr, dass repressive Dynamiken sich verstetigen und Formen der Herrschaft reproduzieren.
+
+### Fokus
+- Personen mit höheren Werten in "Aktivismus" fokussieren sich mehr darauf, Massenbewegungen aufzubauen und zu fördern und eine stabile Kraft in ihnen zu werden.
+- Personen mit höheren Werten in "Basisarbeit" legen den Fokus auf den Aufbau möglichst dauerhafter und stabiler Graswurzelorganisationen, die im alltäglichen Leben agieren.
+
+## Gesellschaft
+
+### Geschlechter
+- Personen mit höheren "Abschaffung" sehen Geschlechter, Sexualitäten und Rollenbilder, als sozial konstruiert an und zielen darauf ab, sie gemeinsam mit dem Kapitalismus abzuschaffen.
+- Personen mit höheren Werten in "Gleichstellung" sind nicht grundsätzlich gegen Geschlechter und streben stattdessen eine Gleichstellung aller Geschlechter und Sexualitäten an.
+
+### Fortschritt
+- Personen mit höheren Werten in "Technologie" befürworten moderne Technologie zur Automatisierung der Produktion und zur Entwicklung der Produktivkräfte, zum Beispiel Roboter, Implantate und KI.
+- Personen mit höheren Werten in "Natur" sehen den technologischen Fortschritt kritisch und wollen mehr Aufgaben dem Menschen überlassen, während die Nutzung der Natur stärker eingeschränkt wird.
+
+### Struktur
+- Personen mit höheren Werten in "Zentral" denken eher, dass viele Entscheidungen auf höherer Ebene getroffen werden müssen und nicht alle zu jedem Thema ihre Wahl treffen müssen, da das besser Experten oder Arbeitsgruppen übernehmen.
+- Personen mit höheren Werten in "Lose" finden es eher wichtig, dass jede Person sich zu jeder Entscheidung verhalten kann und Entscheidungen auf möglichst niedriger Ebene bleiben, wenn es überhaupt höhere Ebenen gibt.
