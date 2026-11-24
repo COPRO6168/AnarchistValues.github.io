@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: GPL-3.0-or-later
+
 questions = [
     {
         "question": "Oppression by corporations is more of a concern than oppression by governments.",
