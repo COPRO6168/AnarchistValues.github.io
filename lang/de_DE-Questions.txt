@@ -1,6 +1,6 @@
 
 - insg. dann ein Kreisdiagramm
-- 7  verschiedene Ergebnisse für jede Achse
+- 5  verschiedene Ergebnisse für jede Achse
 - pro Achse 5 (kurze Variante)
 
 --------------------------------------------

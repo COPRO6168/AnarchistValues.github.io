@@ -87,7 +87,6 @@ div.center {
     border-radius: 8pt;
     padding: 6pt;
     color: white;
-    width: 50%;
     min-width: 488pt;
     text-align: center;
     text-decoration: none;
@@ -96,7 +95,7 @@ div.center {
     margin: auto;
 }
 img.quadcolumn {
-    width: 23.75%;
+    width: 7.5%;
     transition: transform .3s;
 }
 img.quadcolumn:hover {
@@ -118,7 +117,6 @@ div.axis_name {
 .spacer > div{
     margin-top: 10px;
     display: inline-block;
-    *display: inline; /* For IE7 */
     text-align: center;
 }
 .button {
@@ -195,7 +193,7 @@ div.explanation_blurb_right {
 }
 div.explanation_axis {
     width: 20.9%;
-    vertical-align: top;
+    vertical-align: center;
     justify-content: center;
 }
 div.axis {
