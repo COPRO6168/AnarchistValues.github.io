@@ -89,9 +89,9 @@ miliArray = [
   "Peaceful",
 ];
 focuArray = [
-  "Campaigns",
-  "Strongly Campaigns-Focused",
-  "Campaigns-Focused",
+  "Activism",
+  "Strongly Activism-Focused",
+  "Activism-Focused",
   "Balanced",
   "Organizing",
   "Strongly Organizing-Focused",
@@ -155,7 +155,7 @@ dialectic = getQueryVariable("meth");
 class_ = getQueryVariable("subj");
 revolution = getQueryVariable("radi");
 violence = getQueryVariable("mili");
-campaigns = getQueryVariable("focu");
+activism = getQueryVariable("focu");
 abolition = getQueryVariable("gend");
 technology = getQueryVariable("prog");
 central = getQueryVariable("stru");
@@ -167,7 +167,7 @@ empirical = (100 - dialectic).toFixed(1);
 identity = (100 - class_).toFixed(1);
 reform = (100 - revolution).toFixed(1);
 peaceful = (100 - violence).toFixed(1);
-organizing = (100 - campaigns).toFixed(1);
+organizing = (100 - activism).toFixed(1);
 equality = (100 - abolition).toFixed(1);
 nature = (100 - technology).toFixed(1);
 loose = (100 - central).toFixed(1);
@@ -188,7 +188,7 @@ setBarValue("revolution", revolution);
 setBarValue("reform", reform);
 setBarValue("violence", violence);
 setBarValue("peaceful", peaceful);
-setBarValue("campaigns", campaigns);
+setBarValue("activism", activism);
 setBarValue("organizing", organizing);
 setBarValue("abolition", abolition);
 setBarValue("equality", equality);
@@ -205,7 +205,7 @@ document.getElementById("methodology-label").innerHTML = setLabel(dialectic, met
 document.getElementById("subject-label").innerHTML = setLabel(class_, subjArray);
 document.getElementById("radicalness-label").innerHTML = setLabel(revolution, radiArray);
 document.getElementById("militancy-label").innerHTML = setLabel(violence, miliArray);
-document.getElementById("focus-label").innerHTML = setLabel(campaigns, focuArray);
+document.getElementById("focus-label").innerHTML = setLabel(activism, focuArray);
 document.getElementById("genders-label").innerHTML = setLabel(abolition, gendArray);
 document.getElementById("progress-label").innerHTML = setLabel(technology, progArray);
 document.getElementById("structure-label").innerHTML = setLabel(central, struArray);
@@ -222,7 +222,7 @@ for (var i = 0; i < ideologies.length; i++) {
   dist += Math.pow(Math.abs(ideologies[i].stats.subj - class_), 2);
   dist += Math.pow(Math.abs(ideologies[i].stats.radi - revolution), 2);
   dist += Math.pow(Math.abs(ideologies[i].stats.mili - violence), 2);
-  dist += Math.pow(Math.abs(ideologies[i].stats.focu - campaigns), 2);
+  dist += Math.pow(Math.abs(ideologies[i].stats.focu - activism), 2);
   dist += Math.pow(Math.abs(ideologies[i].stats.gend - abolition), 2);
   dist += Math.pow(Math.abs(ideologies[i].stats.prog - technology), 2);
   dist += Math.pow(Math.abs(ideologies[i].stats.stru - central), 2);
@@ -280,7 +280,7 @@ window.onload = function () {
       ["Subject", "class", "identity", "#AAAAFF", "#000088"],
       ["Radicalness", "revolution", "reform", "#CCAAFF", "#550088"],
       ["Militancy", "violence", "peaceful", "#FFAAFF", "#880088"],
-      ["Focus", "campaigns", "organizing", "#FFAACC", "#880055"],
+      ["Focus", "activism", "organizing", "#FFAACC", "#880055"],
       ["Genders", "abolition", "equality", "#FFAAAA", "#880000"],
       ["Progress", "technology", "nature", "#FFCCAA", "#885500"],
       ["Structure", "central", "loose", "#FFFFAA", "#888800"],
