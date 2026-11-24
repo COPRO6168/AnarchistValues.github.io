@@ -266,6 +266,42 @@ div.tradition {
     text-align: left;
     border-right-style: solid;
 }
+div.platform, div.dualism, div.coordination, div.materialism, div.dialectic,
+div.class, div.revolution, div.violence, div.campaign, div.abolition,
+div.technology, div.central {
+    text-align: left;
+    border-right-style: solid;
+}
+div.synthesis, div.unitary, div.autonomy, div.idealism, div.empirical,
+div.identity, div.reform, div.peaceful, div.organizing, div.equality,
+div.nature, div.loose {
+    text-align: right;
+    border-left-style: solid;
+}
+div.platform { background-color: #CCFFAA; }
+div.synthesis { background-color: #558800; }
+div.dualism { background-color: #AAFFAA; }
+div.unitary { background-color: #008800; }
+div.coordination { background-color: #AAFFCC; }
+div.autonomy { background-color: #008855; }
+div.materialism { background-color: #AAFFFF; }
+div.idealism { background-color: #008888; }
+div.dialectic { background-color: #AACCFF; }
+div.empirical { background-color: #005588; }
+div.class { background-color: #AAAAFF; }
+div.identity { background-color: #000088; }
+div.revolution { background-color: #CCAAFF; }
+div.reform { background-color: #550088; }
+div.violence { background-color: #FFAAFF; }
+div.peaceful { background-color: #880088; }
+div.campaigns { background-color: #FFAACC; }
+div.organizing { background-color: #880055; }
+div.abolition { background-color: #FFAAAA; }
+div.equality { background-color: #880000; }
+div.technology { background-color: #FFCCAA; }
+div.nature { background-color: #885500; }
+div.central { background-color: #FFFFAA; }
+div.loose { background-color: #888800; }
 span.weight-300 {
     font-weight: 300;
 }

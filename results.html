@@ -18,58 +18,146 @@
   <body>
     <h1>AnarchistValues</h1>
     <hr />
-    <!-- TODO -->
     <h1>Results</h1>
-    <h2>Economic Axis: <span class="weight-300" id="economic-label"></span></h2>
+    <h2>Unity Axis: <span class="weight-300" id="unity-label"></span></h2>
     <div class="axis">
-      <img id="img-equality" src="value_images/equality.svg" height="128pt" />
+      <img id="img-platform" src="assets/values/Organisation-Unity-Platform.png" height="128pt" />
+      <div class="bar platform" id="bar-platform">
+        <div class="text-wrapper" id="platform"></div>
+      </div>
+      <div class="bar synthesis" id="bar-synthesis">
+        <div class="text-wrapper" id="synthesis"></div>
+      </div>
+      <img id="img-synthesis" src="assets/values/Organisation-Unity-Synthesis.png" height="128pt" />
+    </div>
+    <h2>Specificity Axis: <span class="weight-300" id="specificity-label"></span></h2>
+    <div class="axis">
+      <img id="img-dualism" src="assets/values/Organisation-Specificity-Dualism.png" height="128pt" />
+      <div class="bar dualism" id="bar-dualism">
+        <div class="text-wrapper" id="dualism"></div>
+      </div>
+      <div class="bar unitary" id="bar-unitary">
+        <div class="text-wrapper" id="unitary"></div>
+      </div>
+      <img id="img-unitary" src="assets/values/Organisation-Specificity-Unitary.png" height="128pt" />
+    </div>
+    <h2>Federalism Axis: <span class="weight-300" id="federalism-label"></span></h2>
+    <div class="axis">
+      <img id="img-coordination" src="assets/values/Organisation-Federalism-Coordination.png" height="128pt" />
+      <div class="bar coordination" id="bar-coordination">
+        <div class="text-wrapper" id="coordination"></div>
+      </div>
+      <div class="bar autonomy" id="bar-autonomy">
+        <div class="text-wrapper" id="autonomy"></div>
+      </div>
+      <img id="img-autonomy" src="assets/values/Organisation-Federalism-Autonomy.png" height="128pt" />
+    </div>
+    <h2>Philosophy Axis: <span class="weight-300" id="philosophy-label"></span></h2>
+    <div class="axis">
+      <img id="img-materialism" src="assets/values/Theory-Philosophy-Materialism.png" height="128pt" />
+      <div class="bar materialism" id="bar-materialism">
+        <div class="text-wrapper" id="materialism"></div>
+      </div>
+      <div class="bar idealism" id="bar-idealism">
+        <div class="text-wrapper" id="idealism"></div>
+      </div>
+      <img id="img-idealism" src="assets/values/Theory-Philosophy-Idealism.png" height="128pt" />
+    </div>
+    <h2>Methodology Axis: <span class="weight-300" id="methodology-label"></span></h2>
+    <div class="axis">
+      <img id="img-dialectic" src="assets/values/Theory-Methodology-Dialectic.png" height="128pt" />
+      <div class="bar dialectic" id="bar-dialectic">
+        <div class="text-wrapper" id="dialectic"></div>
+      </div>
+      <div class="bar empirical" id="bar-empirical">
+        <div class="text-wrapper" id="empirical"></div>
+      </div>
+      <img id="img-empirical" src="assets/values/Theory-Methodology-Empirical.png" height="128pt" />
+    </div>
+    <h2>Subject Axis: <span class="weight-300" id="subject-label"></span></h2>
+    <div class="axis">
+      <img id="img-class" src="assets/values/Theory-Subject-Class.png" height="128pt" />
+      <div class="bar class" id="bar-class">
+        <div class="text-wrapper" id="class"></div>
+      </div>
+      <div class="bar identity" id="bar-identity">
+        <div class="text-wrapper" id="identity"></div>
+      </div>
+      <img id="img-identity" src="assets/values/Theory-Subject-Identity.png" height="128pt" />
+    </div>
+    <h2>Radicalness Axis: <span class="weight-300" id="radicalness-label"></span></h2>
+    <div class="axis">
+      <img id="img-revolution" src="assets/values/Praxis-Radicalness-Revolution.png" height="128pt" />
+      <div class="bar revolution" id="bar-revolution">
+        <div class="text-wrapper" id="revolution"></div>
+      </div>
+      <div class="bar reform" id="bar-reform">
+        <div class="text-wrapper" id="reform"></div>
+      </div>
+      <img id="img-reform" src="assets/values/Praxis-Radicalness-Reform.png" height="128pt" />
+    </div>
+    <h2>Militancy Axis: <span class="weight-300" id="militancy-label"></span></h2>
+    <div class="axis">
+      <img id="img-violence" src="assets/values/Praxis-Militancy-Violence.png" height="128pt" />
+      <div class="bar violence" id="bar-violence">
+        <div class="text-wrapper" id="violence"></div>
+      </div>
+      <div class="bar peaceful" id="bar-peaceful">
+        <div class="text-wrapper" id="peaceful"></div>
+      </div>
+      <img id="img-peaceful" src="assets/values/Praxis-Militancy-Peaceful.png" height="128pt" />
+    </div>
+    <h2>Focus Axis: <span class="weight-300" id="focus-label"></span></h2>
+    <div class="axis">
+      <img id="img-campaigns" src="assets/values/Praxis-Focus-Campaigns.png" height="128pt" />
+      <div class="bar campaigns" id="bar-campaigns">
+        <div class="text-wrapper" id="campaigns"></div>
+      </div>
+      <div class="bar organizing" id="bar-organizing">
+        <div class="text-wrapper" id="organizing"></div>
+      </div>
+      <img id="img-organizing" src="assets/values/Praxis-Focus-Organizing.png" height="128pt" />
+    </div>
+    <h2>Genders Axis: <span class="weight-300" id="genders-label"></span></h2>
+    <div class="axis">
+      <img id="img-abolition" src="assets/values/Society-Genders-Abolition.png" height="128pt" />
+      <div class="bar abolition" id="bar-abolition">
+        <div class="text-wrapper" id="abolition"></div>
+      </div>
       <div class="bar equality" id="bar-equality">
         <div class="text-wrapper" id="equality"></div>
       </div>
-      <div class="bar wealth" id="bar-wealth">
-        <div class="text-wrapper" id="wealth"></div>
-      </div>
-      <img id="img-wealth" src="value_images/markets.svg" height="128pt" />
+      <img id="img-equality" src="assets/values/Society-Genders-Equality.png" height="128pt" />
     </div>
-    <h2>Diplomatic Axis: <span class="weight-300" id="diplomatic-label"></span></h2>
+    <h2>Progress Axis: <span class="weight-300" id="progress-label"></span></h2>
     <div class="axis">
-      <img id="img-might" src="value_images/nation.svg" height="128pt" />
-      <div class="bar might" id="bar-might">
-        <div class="text-wrapper" id="might"></div>
+      <img id="img-technology" src="assets/values/Society-Progress-Technology.png" height="128pt" />
+      <div class="bar technology" id="bar-technology">
+        <div class="text-wrapper" id="technology"></div>
       </div>
-      <div class="bar peace" id="bar-peace">
-        <div class="text-wrapper" id="peace"></div>
+      <div class="bar nature" id="bar-nature">
+        <div class="text-wrapper" id="nature"></div>
       </div>
-      <img id="img-peace" src="value_images/globe.svg" height="128pt" />
+      <img id="img-nature" src="assets/values/Society-Progress-Nature.png" height="128pt" />
     </div>
-    <h2>Civil Axis: <span class="weight-300" id="state-label"></span></h2>
+    <h2>Structure Axis: <span class="weight-300" id="structure-label"></span></h2>
     <div class="axis">
-      <img id="img-liberty" src="value_images/liberty.svg" height="128pt" />
-      <div class="bar liberty" id="bar-liberty">
-        <div class="text-wrapper" id="liberty"></div>
+      <img id="img-central" src="assets/values/Society-Structure-Central.png" height="128pt" />
+      <div class="bar central" id="bar-central">
+        <div class="text-wrapper" id="central"></div>
       </div>
-      <div class="bar authority" id="bar-authority">
-        <div class="text-wrapper" id="authority"></div>
+      <div class="bar loose" id="bar-loose">
+        <div class="text-wrapper" id="loose"></div>
       </div>
-      <img id="img-authority" src="value_images/authority.svg" height="128pt" />
-    </div>
-    <h2>Societal Axis: <span class="weight-300" id="society-label"></span></h2>
-    <div class="axis">
-      <img id="img-tradition" src="value_images/tradition.svg" height="128pt" />
-      <div class="bar tradition" id="bar-tradition">
-        <div class="text-wrapper" id="tradition"></div>
-      </div>
-      <div class="bar progress" id="bar-progress">
-        <div class="text-wrapper" id="progress"></div>
-      </div>
-      <img id="img-progress" src="value_images/progress.svg" height="128pt" />
+      <img id="img-loose" src="assets/values/Society-Structure-Loose.png" height="128pt" />
     </div>
     <h2>Closest Match: <span class="weight-300" id="ideology-label"></span></h2>
-    <p>Ideological matching is a work in progress, and is much less accurate than the values and axes.</p>
+    <p>Matching is a work in progress, and is much less accurate than the values and axes.</p>
     <p>
       You can send these results by copying and pasting the URL at the top of the page or using the image below. Think
-      your matched ideology was wrong? Want to help us calibrate the test? Send the results along with your political
-      ideology to us at eightvalues@gmail.com, or send us any comments, questions, or criticism.
+      your matched ideology was wrong? Want to help calibrate the test? Send the results along with your recommended
+      change to me over Discord (copro), alternatively via a GitHub issue, or send me any comments, questions, or
+      criticism.
     </p>
     <hr />
     <img src="" id="banner" />
@@ -98,25 +186,105 @@
         }
       }
 
-      econArray = ["Communist", "Socialist", "Social", "Centrist", "Market", "Capitalist", "Laissez-Faire"];
-      diplArray = [
-        "Cosmopolitan",
-        "Internationalist",
-        "Peaceful",
+      unitArray = [
+        "Platform",
+        "Strongly Platform",
+        "Platform",
         "Balanced",
-        "Patriotic",
-        "Nationalist",
-        "Chauvinist",
+        "Synthesis",
+        "Strongly Synthesis",
+        "Synthesis",
       ];
-      govtArray = ["Anarchist", "Libertarian", "Liberal", "Moderate", "Statist", "Authoritarian", "Totalitarian"];
-      sctyArray = [
+      specArray = ["Dualism", "Strongly Dualist", "Dualist", "Balanced", "Unitary", "Strongly Unitary", "Unitary"];
+      fedeArray = [
+        "Coordination",
+        "Strongly Coordinating",
+        "Coordinating",
+        "Balanced",
+        "Autonomy",
+        "Strongly Autonomous",
+        "Autonomy",
+      ];
+      philArray = [
+        "Materialism",
+        "Strongly Materialist",
+        "Materialist",
+        "Balanced",
+        "Idealism",
+        "Strongly Idealist",
+        "Idealism",
+      ];
+      methArray = [
+        "Dialectic",
+        "Strongly Dialectical",
+        "Dialectical",
+        "Balanced",
+        "Empirical",
+        "Strongly Empirical",
+        "Empirical",
+      ];
+      subjArray = [
+        "Class",
+        "Strongly Class-Based",
+        "Class-Based",
+        "Balanced",
+        "Identity",
+        "Strongly Identity-Based",
+        "Identity",
+      ];
+      radiArray = [
+        "Revolution",
+        "Strongly Revolutionary",
         "Revolutionary",
-        "Very Progressive",
-        "Progressive",
-        "Neutral",
-        "Traditional",
-        "Very Traditional",
-        "Reactionary",
+        "Balanced",
+        "Reform",
+        "Strongly Reformist",
+        "Reform",
+      ];
+      miliArray = [
+        "Violence",
+        "Strongly Militant",
+        "Militant",
+        "Balanced",
+        "Peaceful",
+        "Strongly Peaceful",
+        "Peaceful",
+      ];
+      focuArray = [
+        "Campaigns",
+        "Strongly Campaigns-Focused",
+        "Campaigns-Focused",
+        "Balanced",
+        "Organizing",
+        "Strongly Organizing-Focused",
+        "Organizing",
+      ];
+      gendArray = [
+        "Abolition",
+        "Strongly Abolitionist",
+        "Abolitionist",
+        "Balanced",
+        "Equality",
+        "Strongly Egalitarian",
+        "Equality",
+      ];
+      progArray = [
+        "Technology",
+        "Strongly Technological",
+        "Technological",
+        "Balanced",
+        "Nature",
+        "Strongly Nature-Based",
+        "Nature",
+      ];
+      struArray = [
+        "Central",
+        "Strongly Central",
+        "Centralized",
+        "Balanced",
+        "Loose",
+        "Strongly Decentralized",
+        "Loose",
       ];
 
       function setLabel(val, ary) {
@@ -141,37 +309,85 @@
         }
       }
 
-      equality = getQueryVariable("e");
-      peace = getQueryVariable("d");
-      liberty = getQueryVariable("g");
-      progress = getQueryVariable("s");
-      wealth = (100 - equality).toFixed(1);
-      might = (100 - peace).toFixed(1);
-      authority = (100 - liberty).toFixed(1);
-      tradition = (100 - progress).toFixed(1);
+      platform = getQueryVariable("unit");
+      dualism = getQueryVariable("spec");
+      coordination = getQueryVariable("fede");
+      materialism = getQueryVariable("phil");
+      dialectic = getQueryVariable("meth");
+      class_ = getQueryVariable("subj");
+      revolution = getQueryVariable("radi");
+      violence = getQueryVariable("mili");
+      campaigns = getQueryVariable("focu");
+      abolition = getQueryVariable("gend");
+      technology = getQueryVariable("prog");
+      central = getQueryVariable("stru");
+      synthesis = (100 - platform).toFixed(1);
+      unitary = (100 - dualism).toFixed(1);
+      autonomy = (100 - coordination).toFixed(1);
+      idealism = (100 - materialism).toFixed(1);
+      empirical = (100 - dialectic).toFixed(1);
+      identity = (100 - class_).toFixed(1);
+      reform = (100 - revolution).toFixed(1);
+      peaceful = (100 - violence).toFixed(1);
+      organizing = (100 - campaigns).toFixed(1);
+      equality = (100 - abolition).toFixed(1);
+      nature = (100 - technology).toFixed(1);
+      loose = (100 - central).toFixed(1);
 
+      setBarValue("platform", platform);
+      setBarValue("synthesis", synthesis);
+      setBarValue("dualism", dualism);
+      setBarValue("unitary", unitary);
+      setBarValue("coordination", coordination);
+      setBarValue("autonomy", autonomy);
+      setBarValue("materialism", materialism);
+      setBarValue("idealism", idealism);
+      setBarValue("dialectic", dialectic);
+      setBarValue("empirical", empirical);
+      setBarValue("class", class_);
+      setBarValue("identity", identity);
+      setBarValue("revolution", revolution);
+      setBarValue("reform", reform);
+      setBarValue("violence", violence);
+      setBarValue("peaceful", peaceful);
+      setBarValue("campaigns", campaigns);
+      setBarValue("organizing", organizing);
+      setBarValue("abolition", abolition);
       setBarValue("equality", equality);
-      setBarValue("wealth", wealth);
-      setBarValue("peace", peace);
-      setBarValue("might", might);
-      setBarValue("liberty", liberty);
-      setBarValue("authority", authority);
-      setBarValue("progress", progress);
-      setBarValue("tradition", tradition);
+      setBarValue("technology", technology);
+      setBarValue("nature", nature);
+      setBarValue("central", central);
+      setBarValue("loose", loose);
 
-      document.getElementById("economic-label").innerHTML = setLabel(equality, econArray);
-      document.getElementById("diplomatic-label").innerHTML = setLabel(peace, diplArray);
-      document.getElementById("state-label").innerHTML = setLabel(liberty, govtArray);
-      document.getElementById("society-label").innerHTML = setLabel(progress, sctyArray);
+      document.getElementById("unity-label").innerHTML = setLabel(platform, unitArray);
+      document.getElementById("specificity-label").innerHTML = setLabel(dualism, specArray);
+      document.getElementById("federalism-label").innerHTML = setLabel(coordination, fedeArray);
+      document.getElementById("philosophy-label").innerHTML = setLabel(materialism, philArray);
+      document.getElementById("methodology-label").innerHTML = setLabel(dialectic, methArray);
+      document.getElementById("subject-label").innerHTML = setLabel(class_, subjArray);
+      document.getElementById("radicalness-label").innerHTML = setLabel(revolution, radiArray);
+      document.getElementById("militancy-label").innerHTML = setLabel(violence, miliArray);
+      document.getElementById("focus-label").innerHTML = setLabel(campaigns, focuArray);
+      document.getElementById("genders-label").innerHTML = setLabel(abolition, gendArray);
+      document.getElementById("progress-label").innerHTML = setLabel(technology, progArray);
+      document.getElementById("structure-label").innerHTML = setLabel(central, struArray);
 
       ideology = "";
       ideodist = Infinity;
       for (var i = 0; i < ideologies.length; i++) {
         dist = 0;
-        dist += Math.pow(Math.abs(ideologies[i].stats.econ - equality), 2);
-        dist += Math.pow(Math.abs(ideologies[i].stats.govt - liberty), 2);
-        dist += Math.pow(Math.abs(ideologies[i].stats.dipl - peace), 1.73856063);
-        dist += Math.pow(Math.abs(ideologies[i].stats.scty - progress), 1.73856063);
+        dist += Math.pow(Math.abs(ideologies[i].stats.unit - platform), 2);
+        dist += Math.pow(Math.abs(ideologies[i].stats.spec - dualism), 2);
+        dist += Math.pow(Math.abs(ideologies[i].stats.fede - coordination), 2);
+        dist += Math.pow(Math.abs(ideologies[i].stats.phil - materialism), 2);
+        dist += Math.pow(Math.abs(ideologies[i].stats.meth - dialectic), 2);
+        dist += Math.pow(Math.abs(ideologies[i].stats.subj - class_), 2);
+        dist += Math.pow(Math.abs(ideologies[i].stats.radi - revolution), 2);
+        dist += Math.pow(Math.abs(ideologies[i].stats.mili - violence), 2);
+        dist += Math.pow(Math.abs(ideologies[i].stats.focu - campaigns), 2);
+        dist += Math.pow(Math.abs(ideologies[i].stats.gend - abolition), 2);
+        dist += Math.pow(Math.abs(ideologies[i].stats.prog - technology), 2);
+        dist += Math.pow(Math.abs(ideologies[i].stats.stru - central), 2);
         if (dist < ideodist) {
           ideology = ideologies[i].name;
           ideodist = dist;
@@ -188,95 +404,77 @@
       }
 
       window.onload = function () {
-        var c = document.createElement("canvas");
-        var ctx = c.getContext("2d");
-        c.width = 800;
-        c.height = 650;
-        ctx.fillStyle = "#EEEEEE";
-        ctx.fillRect(0, 0, 800, 650);
+        const bannerImages = Array.from(document.querySelectorAll(".axis img"));
+        Promise.all(
+          bannerImages.map((img) =>
+            img.complete
+              ? Promise.resolve()
+              : new Promise((resolve) => {
+                  img.onload = resolve;
+                  img.onerror = resolve;
+                }),
+          ),
+        ).then(() => {
+          var c = document.createElement("canvas");
+          var ctx = c.getContext("2d");
+          c.width = 800;
+          c.height = 1500;
+          ctx.fillStyle = "#EEEEEE";
+          ctx.fillRect(0, 0, 800, 1500);
 
-        img = document.getElementById("img-equality");
-        ctx.drawImage(img, 20, 170, 100, 100);
-        img = document.getElementById("img-wealth");
-        ctx.drawImage(img, 680, 170, 100, 100);
-        img = document.getElementById("img-might");
-        ctx.drawImage(img, 20, 290, 100, 100);
-        img = document.getElementById("img-peace");
-        ctx.drawImage(img, 680, 290, 100, 100);
-        img = document.getElementById("img-liberty");
-        ctx.drawImage(img, 20, 410, 100, 100);
-        img = document.getElementById("img-authority");
-        ctx.drawImage(img, 680, 410, 100, 100);
-        img = document.getElementById("img-tradition");
-        ctx.drawImage(img, 20, 530, 100, 100);
-        img = document.getElementById("img-progress");
-        ctx.drawImage(img, 680, 530, 100, 100);
+          ctx.fillStyle = "#222222";
+          ctx.font = "700 80px Montserrat";
+          ctx.textAlign = "left";
+          ctx.fillText("LOGO", 20, 90);
+          ctx.font = "50px Montserrat";
+          ctx.fillText(ideology, 20, 140);
 
-        ctx.fillStyle = "#222222";
-        ctx.fillRect(120, 180, 560, 80);
-        ctx.fillRect(120, 300, 560, 80);
-        ctx.fillRect(120, 420, 560, 80);
-        ctx.fillRect(120, 540, 560, 80);
-        ctx.fillStyle = "#f44336";
-        ctx.fillRect(120, 184, 5.6 * equality - 2, 72);
-        ctx.fillStyle = "#00897b";
-        ctx.fillRect(682 - 5.6 * wealth, 184, 5.6 * wealth - 2, 72);
-        ctx.fillStyle = "#ff9800";
-        ctx.fillRect(120, 304, 5.6 * might - 2, 72);
-        ctx.fillStyle = "#03a9f4";
-        ctx.fillRect(682 - 5.6 * peace, 304, 5.6 * peace - 2, 72);
-        ctx.fillStyle = "#ffeb3b";
-        ctx.fillRect(120, 424, 5.6 * liberty - 2, 72);
-        ctx.fillStyle = "#3f51b5";
-        ctx.fillRect(682 - 5.6 * authority, 424, 5.6 * authority - 2, 72);
-        ctx.fillStyle = "#8bc34a";
-        ctx.fillRect(120, 544, 5.6 * tradition - 2, 72);
-        ctx.fillStyle = "#9c27b0";
-        ctx.fillRect(682 - 5.6 * progress, 544, 5.6 * progress - 2, 72);
-        ctx.fillStyle = "#222222";
-        ctx.font = "700 80px Montserrat";
-        ctx.textAlign = "left";
-        ctx.fillText("LOGO", 20, 90);
-        ctx.font = "50px Montserrat";
-        ctx.fillText(ideology, 20, 140);
+          ctx.font = "300 30px Montserrat";
+          ctx.fillText("AnarchistValues.github.io", 780, 60);
+          ctx.fillText(version, 780, 90);
 
-        ctx.textAlign = "left";
-        if (equality > 30) {
-          ctx.fillText(equality + "%", 130, 237.5);
-        }
-        if (might > 30) {
-          ctx.fillText(might + "%", 130, 357.5);
-        }
-        if (liberty > 30) {
-          ctx.fillText(liberty + "%", 130, 477.5);
-        }
-        if (tradition > 30) {
-          ctx.fillText(tradition + "%", 130, 597.5);
-        }
-        ctx.textAlign = "right";
-        if (wealth > 30) {
-          ctx.fillText(wealth + "%", 670, 237.5);
-        }
-        if (peace > 30) {
-          ctx.fillText(peace + "%", 670, 357.5);
-        }
-        if (authority > 30) {
-          ctx.fillText(authority + "%", 670, 477.5);
-        }
-        if (progress > 30) {
-          ctx.fillText(progress + "%", 670, 597.5);
-        }
+          const axes = [
+            ["Unity", "platform", "synthesis", "#CCFFAA", "#558800"],
+            ["Specificity", "dualism", "unitary", "#AAFFAA", "#008800"],
+            ["Federalism", "coordination", "autonomy", "#AAFFCC", "#008855"],
+            ["Philosophy", "materialism", "idealism", "#AAFFFF", "#008888"],
+            ["Methodology", "dialectic", "empirical", "#AACCFF", "#005588"],
+            ["Subject", "class", "identity", "#AAAAFF", "#000088"],
+            ["Radicalness", "revolution", "reform", "#CCAAFF", "#550088"],
+            ["Militancy", "violence", "peaceful", "#FFAAFF", "#880088"],
+            ["Focus", "campaigns", "organizing", "#FFAACC", "#880055"],
+            ["Genders", "abolition", "equality", "#FFAAAA", "#880000"],
+            ["Progress", "technology", "nature", "#FFCCAA", "#885500"],
+            ["Structure", "central", "loose", "#FFFFAA", "#888800"],
+          ];
 
-        ctx.font = "300 30px Montserrat";
-        ctx.fillText("AnarchistValues.github.io", 780, 60);
-        ctx.fillText(version, 780, 90);
-        ctx.textAlign = "center";
-        ctx.fillText("Economic Axis: " + document.getElementById("economic-label").innerHTML, 400, 175);
-        ctx.fillText("Diplomatic Axis: " + document.getElementById("diplomatic-label").innerHTML, 400, 295);
-        ctx.fillText("Civil Axis: " + document.getElementById("state-label").innerHTML, 400, 415);
-        ctx.fillText("Societal Axis: " + document.getElementById("society-label").innerHTML, 400, 535);
+          ctx.font = "300 24px Montserrat";
+          axes.forEach((axis, index) => {
+            const y = 180 + index * 105;
+            const leftScore = parseFloat(document.getElementById(axis[1]).innerHTML) || 0;
+            const rightScore = parseFloat(document.getElementById(axis[2]).innerHTML) || 0;
 
-        document.getElementById("banner").src = c.toDataURL();
+            ctx.fillStyle = "#222222";
+            ctx.fillRect(120, y, 560, 60);
+            ctx.fillStyle = axis[3];
+            ctx.fillRect(120, y + 4, 5.6 * leftScore - 2, 52);
+            ctx.fillStyle = axis[4];
+            ctx.fillRect(682 - 5.6 * rightScore, y + 4, 5.6 * rightScore - 2, 52);
+
+            ctx.fillStyle = "#222222";
+            ctx.textAlign = "center";
+            ctx.fillText(axis[0] + " Axis", 400, y - 10);
+            ctx.textAlign = "left";
+            if (leftScore > 30) ctx.fillText(leftScore + "%", 130, y + 38);
+            ctx.textAlign = "right";
+            if (rightScore > 30) ctx.fillText(rightScore + "%", 670, y + 38);
+
+            ctx.drawImage(document.getElementById("img-" + axis[1]), 20, y - 20, 100, 100);
+            ctx.drawImage(document.getElementById("img-" + axis[2]), 680, y - 20, 100, 100);
+          });
+
+          document.getElementById("banner").src = c.toDataURL();
+        });
       };
     </script>
   </body>

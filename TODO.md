@@ -1,8 +1,9 @@
-### Refactoring
+### Content/Features
 
-- [x] replace images
-- [ ] replace all 8values refs with AnarchistValues
-
+- [x] replace all 8values refs with AnarchistValues
+- [x] reorder everything and rename properly
+- [x] delete value_images (as soon as not used anymore)
+- [ ] Rewrite to make triangles for themes instead of axes for values
 
 ### Designing
 
@@ -25,7 +26,13 @@
   - [ ] german
   - [ ] english
 
+### Coding
 
-### Features/Content
-
-- [ ] Rewrite to make triangles for themes instead of axes for values
+- HTML
+  - [x] [index](/index.html)
+  - [x] [instructions](/instructions.html)
+  - [x] [quiz](/quiz.html)
+  - [x] [results](/results.html)
+- JS
+  - [x] [ideologies](/data/ideologies.js)
+  - [x] [questions](/data/questions.js)

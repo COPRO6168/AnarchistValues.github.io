@@ -2,471 +2,887 @@
 
 ideologies = [
     {
-        "name": "Anarcho-Communism",
+        "name": "Lorem Ipsum",
         "stats": {
-            "econ": 100,
-            "dipl": 50,
-            "govt": 100,
-            "scty": 90
+            "unit": 0,
+            "spec": 0,
+            "fede": 0,
+            "phil": 0,
+            "meth": 0,
+            "subj": 0,
+            "radi": 0,
+            "mili": 0,
+            "focu": 0,
+            "gend": 0,
+            "prog": 0,
+            "stru": 0
         }
     },
     {
-        "name": "Libertarian Communism",
+        "name": "Lorem Ipsum",
         "stats": {
-            "econ": 100,
-            "dipl": 70,
-            "govt": 80,
-            "scty": 80
+            "unit": 0,
+            "spec": 0,
+            "fede": 0,
+            "phil": 0,
+            "meth": 0,
+            "subj": 0,
+            "radi": 0,
+            "mili": 0,
+            "focu": 0,
+            "gend": 0,
+            "prog": 0,
+            "stru": 0
         }
     },
     {
-        "name": "Trotskyism",
+        "name": "Lorem Ipsum",
         "stats": {
-            "econ": 100,
-            "dipl": 100,
-            "govt": 60,
-            "scty": 80
+            "unit": 0,
+            "spec": 0,
+            "fede": 0,
+            "phil": 0,
+            "meth": 0,
+            "subj": 0,
+            "radi": 0,
+            "mili": 0,
+            "focu": 0,
+            "gend": 0,
+            "prog": 0,
+            "stru": 0
         }
     },
     {
-        "name": "Marxism",
+        "name": "Lorem Ipsum",
         "stats": {
-            "econ": 100,
-            "dipl": 70,
-            "govt": 40,
-            "scty": 80
+            "unit": 0,
+            "spec": 0,
+            "fede": 0,
+            "phil": 0,
+            "meth": 0,
+            "subj": 0,
+            "radi": 0,
+            "mili": 0,
+            "focu": 0,
+            "gend": 0,
+            "prog": 0,
+            "stru": 0
         }
     },
     {
-        "name": "De Leonism",
+        "name": "Lorem Ipsum",
         "stats": {
-            "econ": 100,
-            "dipl": 30,
-            "govt": 30,
-            "scty": 80
+            "unit": 0,
+            "spec": 0,
+            "fede": 0,
+            "phil": 0,
+            "meth": 0,
+            "subj": 0,
+            "radi": 0,
+            "mili": 0,
+            "focu": 0,
+            "gend": 0,
+            "prog": 0,
+            "stru": 0
         }
     },
     {
-        "name": "Leninism",
+        "name": "Lorem Ipsum",
         "stats": {
-            "econ": 100,
-            "dipl": 40,
-            "govt": 20,
-            "scty": 70
+            "unit": 0,
+            "spec": 0,
+            "fede": 0,
+            "phil": 0,
+            "meth": 0,
+            "subj": 0,
+            "radi": 0,
+            "mili": 0,
+            "focu": 0,
+            "gend": 0,
+            "prog": 0,
+            "stru": 0
         }
     },
     {
-        "name": "Stalinism/Maoism",
+        "name": "Lorem Ipsum",
         "stats": {
-            "econ": 100,
-            "dipl": 20,
-            "govt": 0,
-            "scty": 60
+            "unit": 0,
+            "spec": 0,
+            "fede": 0,
+            "phil": 0,
+            "meth": 0,
+            "subj": 0,
+            "radi": 0,
+            "mili": 0,
+            "focu": 0,
+            "gend": 0,
+            "prog": 0,
+            "stru": 0
         }
     },
     {
-        "name": "Religious Communism",
+        "name": "Lorem Ipsum",
         "stats": {
-            "econ": 100,
-            "dipl": 50,
-            "govt": 30,
-            "scty": 30
+            "unit": 0,
+            "spec": 0,
+            "fede": 0,
+            "phil": 0,
+            "meth": 0,
+            "subj": 0,
+            "radi": 0,
+            "mili": 0,
+            "focu": 0,
+            "gend": 0,
+            "prog": 0,
+            "stru": 0
         }
     },
     {
-        "name": "State Socialism",
+        "name": "Lorem Ipsum",
         "stats": {
-            "econ": 80,
-            "dipl": 30,
-            "govt": 30,
-            "scty": 70
+            "unit": 0,
+            "spec": 0,
+            "fede": 0,
+            "phil": 0,
+            "meth": 0,
+            "subj": 0,
+            "radi": 0,
+            "mili": 0,
+            "focu": 0,
+            "gend": 0,
+            "prog": 0,
+            "stru": 0
         }
     },
     {
-        "name": "Theocratic Socialism",
+        "name": "Lorem Ipsum",
         "stats": {
-            "econ": 80,
-            "dipl": 50,
-            "govt": 30,
-            "scty": 20
+            "unit": 0,
+            "spec": 0,
+            "fede": 0,
+            "phil": 0,
+            "meth": 0,
+            "subj": 0,
+            "radi": 0,
+            "mili": 0,
+            "focu": 0,
+            "gend": 0,
+            "prog": 0,
+            "stru": 0
         }
     },
     {
-        "name": "Religious Socialism",
+        "name": "Lorem Ipsum",
         "stats": {
-            "econ": 80,
-            "dipl": 50,
-            "govt": 70,
-            "scty": 20
+            "unit": 0,
+            "spec": 0,
+            "fede": 0,
+            "phil": 0,
+            "meth": 0,
+            "subj": 0,
+            "radi": 0,
+            "mili": 0,
+            "focu": 0,
+            "gend": 0,
+            "prog": 0,
+            "stru": 0
         }
     },
     {
-        "name": "Democratic Socialism",
+        "name": "Lorem Ipsum",
         "stats": {
-            "econ": 80,
-            "dipl": 50,
-            "govt": 50,
-            "scty": 80
+            "unit": 0,
+            "spec": 0,
+            "fede": 0,
+            "phil": 0,
+            "meth": 0,
+            "subj": 0,
+            "radi": 0,
+            "mili": 0,
+            "focu": 0,
+            "gend": 0,
+            "prog": 0,
+            "stru": 0
         }
     },
     {
-        "name": "Revolutionary Socialism",
+        "name": "Lorem Ipsum",
         "stats": {
-            "econ": 80,
-            "dipl": 20,
-            "govt": 50,
-            "scty": 70
+            "unit": 0,
+            "spec": 0,
+            "fede": 0,
+            "phil": 0,
+            "meth": 0,
+            "subj": 0,
+            "radi": 0,
+            "mili": 0,
+            "focu": 0,
+            "gend": 0,
+            "prog": 0,
+            "stru": 0
         }
     },
     {
-        "name": "Libertarian Socialism",
+        "name": "Lorem Ipsum",
         "stats": {
-            "econ": 80,
-            "dipl": 80,
-            "govt": 80,
-            "scty": 80
+            "unit": 0,
+            "spec": 0,
+            "fede": 0,
+            "phil": 0,
+            "meth": 0,
+            "subj": 0,
+            "radi": 0,
+            "mili": 0,
+            "focu": 0,
+            "gend": 0,
+            "prog": 0,
+            "stru": 0
         }
     },
     {
-        "name": "Anarcho-Syndicalism",
+        "name": "Lorem Ipsum",
         "stats": {
-            "econ": 80,
-            "dipl": 50,
-            "govt": 100,
-            "scty": 80
+            "unit": 0,
+            "spec": 0,
+            "fede": 0,
+            "phil": 0,
+            "meth": 0,
+            "subj": 0,
+            "radi": 0,
+            "mili": 0,
+            "focu": 0,
+            "gend": 0,
+            "prog": 0,
+            "stru": 0
         }
     },
     {
-        "name": "Left-Wing Populism",
+        "name": "Lorem Ipsum",
         "stats": {
-            "econ": 60,
-            "dipl": 40,
-            "govt": 30,
-            "scty": 70
+            "unit": 0,
+            "spec": 0,
+            "fede": 0,
+            "phil": 0,
+            "meth": 0,
+            "subj": 0,
+            "radi": 0,
+            "mili": 0,
+            "focu": 0,
+            "gend": 0,
+            "prog": 0,
+            "stru": 0
         }
     },
     {
-        "name": "Theocratic Distributism",
+        "name": "Lorem Ipsum",
         "stats": {
-            "econ": 60,
-            "dipl": 40,
-            "govt": 30,
-            "scty": 20
+            "unit": 0,
+            "spec": 0,
+            "fede": 0,
+            "phil": 0,
+            "meth": 0,
+            "subj": 0,
+            "radi": 0,
+            "mili": 0,
+            "focu": 0,
+            "gend": 0,
+            "prog": 0,
+            "stru": 0
         }
     },
     {
-        "name": "Distributism",
+        "name": "Lorem Ipsum",
         "stats": {
-            "econ": 60,
-            "dipl": 50,
-            "govt": 50,
-            "scty": 20
+            "unit": 0,
+            "spec": 0,
+            "fede": 0,
+            "phil": 0,
+            "meth": 0,
+            "subj": 0,
+            "radi": 0,
+            "mili": 0,
+            "focu": 0,
+            "gend": 0,
+            "prog": 0,
+            "stru": 0
         }
     },
     {
-        "name": "Social Liberalism",
+        "name": "Lorem Ipsum",
         "stats": {
-            "econ": 60,
-            "dipl": 60,
-            "govt": 60,
-            "scty": 80
+            "unit": 0,
+            "spec": 0,
+            "fede": 0,
+            "phil": 0,
+            "meth": 0,
+            "subj": 0,
+            "radi": 0,
+            "mili": 0,
+            "focu": 0,
+            "gend": 0,
+            "prog": 0,
+            "stru": 0
         }
     },
     {
-        "name": "Christian Democracy",
+        "name": "Lorem Ipsum",
         "stats": {
-            "econ": 60,
-            "dipl": 60,
-            "govt": 50,
-            "scty": 30
+            "unit": 0,
+            "spec": 0,
+            "fede": 0,
+            "phil": 0,
+            "meth": 0,
+            "subj": 0,
+            "radi": 0,
+            "mili": 0,
+            "focu": 0,
+            "gend": 0,
+            "prog": 0,
+            "stru": 0
         }
     },
     {
-        "name": "Social Democracy",
+        "name": "Lorem Ipsum",
         "stats": {
-            "econ": 60,
-            "dipl": 70,
-            "govt": 60,
-            "scty": 80
+            "unit": 0,
+            "spec": 0,
+            "fede": 0,
+            "phil": 0,
+            "meth": 0,
+            "subj": 0,
+            "radi": 0,
+            "mili": 0,
+            "focu": 0,
+            "gend": 0,
+            "prog": 0,
+            "stru": 0
         }
     },
     {
-        "name": "Progressivism",
+        "name": "Lorem Ipsum",
         "stats": {
-            "econ": 60,
-            "dipl": 80,
-            "govt": 60,
-            "scty": 100
+            "unit": 0,
+            "spec": 0,
+            "fede": 0,
+            "phil": 0,
+            "meth": 0,
+            "subj": 0,
+            "radi": 0,
+            "mili": 0,
+            "focu": 0,
+            "gend": 0,
+            "prog": 0,
+            "stru": 0
         }
     },
     {
-        "name": "Anarcho-Mutualism",
+        "name": "Lorem Ipsum",
         "stats": {
-            "econ": 60,
-            "dipl": 50,
-            "govt": 100,
-            "scty": 70
+            "unit": 0,
+            "spec": 0,
+            "fede": 0,
+            "phil": 0,
+            "meth": 0,
+            "subj": 0,
+            "radi": 0,
+            "mili": 0,
+            "focu": 0,
+            "gend": 0,
+            "prog": 0,
+            "stru": 0
         }
     },
     {
-        "name": "National Totalitarianism",
+        "name": "Lorem Ipsum",
         "stats": {
-            "econ": 50,
-            "dipl": 20,
-            "govt": 0,
-            "scty": 50
+            "unit": 0,
+            "spec": 0,
+            "fede": 0,
+            "phil": 0,
+            "meth": 0,
+            "subj": 0,
+            "radi": 0,
+            "mili": 0,
+            "focu": 0,
+            "gend": 0,
+            "prog": 0,
+            "stru": 0
         }
     },
     {
-        "name": "Global Totalitarianism",
+        "name": "Lorem Ipsum",
         "stats": {
-            "econ": 50,
-            "dipl": 80,
-            "govt": 0,
-            "scty": 50
+            "unit": 0,
+            "spec": 0,
+            "fede": 0,
+            "phil": 0,
+            "meth": 0,
+            "subj": 0,
+            "radi": 0,
+            "mili": 0,
+            "focu": 0,
+            "gend": 0,
+            "prog": 0,
+            "stru": 0
         }
     },
     {
-        "name": "Technocracy",
+        "name": "Lorem Ipsum",
         "stats": {
-            "econ": 60,
-            "dipl": 60,
-            "govt": 20,
-            "scty": 70
+            "unit": 0,
+            "spec": 0,
+            "fede": 0,
+            "phil": 0,
+            "meth": 0,
+            "subj": 0,
+            "radi": 0,
+            "mili": 0,
+            "focu": 0,
+            "gend": 0,
+            "prog": 0,
+            "stru": 0
         }
     },
     {
-        "name": "Centrist",
+        "name": "Lorem Ipsum",
         "stats": {
-            "econ": 50,
-            "dipl": 50,
-            "govt": 50,
-            "scty": 50
+            "unit": 0,
+            "spec": 0,
+            "fede": 0,
+            "phil": 0,
+            "meth": 0,
+            "subj": 0,
+            "radi": 0,
+            "mili": 0,
+            "focu": 0,
+            "gend": 0,
+            "prog": 0,
+            "stru": 0
         }
     },
     {
-        "name": "Liberalism",
+        "name": "Lorem Ipsum",
         "stats": {
-            "econ": 50,
-            "dipl": 60,
-            "govt": 60,
-            "scty": 60
+            "unit": 0,
+            "spec": 0,
+            "fede": 0,
+            "phil": 0,
+            "meth": 0,
+            "subj": 0,
+            "radi": 0,
+            "mili": 0,
+            "focu": 0,
+            "gend": 0,
+            "prog": 0,
+            "stru": 0
         }
     },
     {
-        "name": "Religious Anarchism",
+        "name": "Lorem Ipsum",
         "stats": {
-            "econ": 50,
-            "dipl": 50,
-            "govt": 100,
-            "scty": 20
+            "unit": 0,
+            "spec": 0,
+            "fede": 0,
+            "phil": 0,
+            "meth": 0,
+            "subj": 0,
+            "radi": 0,
+            "mili": 0,
+            "focu": 0,
+            "gend": 0,
+            "prog": 0,
+            "stru": 0
         }
     },
     {
-        "name": "Right-Wing Populism",
+        "name": "Lorem Ipsum",
         "stats": {
-            "econ": 40,
-            "dipl": 30,
-            "govt": 30,
-            "scty": 30
+            "unit": 0,
+            "spec": 0,
+            "fede": 0,
+            "phil": 0,
+            "meth": 0,
+            "subj": 0,
+            "radi": 0,
+            "mili": 0,
+            "focu": 0,
+            "gend": 0,
+            "prog": 0,
+            "stru": 0
         }
     },
     {
-        "name": "Moderate Conservatism",
+        "name": "Lorem Ipsum",
         "stats": {
-            "econ": 40,
-            "dipl": 40,
-            "govt": 50,
-            "scty": 30
+            "unit": 0,
+            "spec": 0,
+            "fede": 0,
+            "phil": 0,
+            "meth": 0,
+            "subj": 0,
+            "radi": 0,
+            "mili": 0,
+            "focu": 0,
+            "gend": 0,
+            "prog": 0,
+            "stru": 0
         }
     },
     {
-        "name": "Reactionary",
+        "name": "Lorem Ipsum",
         "stats": {
-            "econ": 40,
-            "dipl": 40,
-            "govt": 40,
-            "scty": 10
+            "unit": 0,
+            "spec": 0,
+            "fede": 0,
+            "phil": 0,
+            "meth": 0,
+            "subj": 0,
+            "radi": 0,
+            "mili": 0,
+            "focu": 0,
+            "gend": 0,
+            "prog": 0,
+            "stru": 0
         }
     },
     {
-        "name": "Social Libertarianism",
+        "name": "Lorem Ipsum",
         "stats": {
-            "econ": 60,
-            "dipl": 70,
-            "govt": 80,
-            "scty": 70
+            "unit": 0,
+            "spec": 0,
+            "fede": 0,
+            "phil": 0,
+            "meth": 0,
+            "subj": 0,
+            "radi": 0,
+            "mili": 0,
+            "focu": 0,
+            "gend": 0,
+            "prog": 0,
+            "stru": 0
         }
     },
     {
-        "name": "Libertarianism",
+        "name": "Lorem Ipsum",
         "stats": {
-            "econ": 40,
-            "dipl": 60,
-            "govt": 80,
-            "scty": 60
+            "unit": 0,
+            "spec": 0,
+            "fede": 0,
+            "phil": 0,
+            "meth": 0,
+            "subj": 0,
+            "radi": 0,
+            "mili": 0,
+            "focu": 0,
+            "gend": 0,
+            "prog": 0,
+            "stru": 0
         }
     },
     {
-        "name": "Anarcho-Egoism",
+        "name": "Lorem Ipsum",
         "stats": {
-            "econ": 40,
-            "dipl": 50,
-            "govt": 100,
-            "scty": 50
+            "unit": 0,
+            "spec": 0,
+            "fede": 0,
+            "phil": 0,
+            "meth": 0,
+            "subj": 0,
+            "radi": 0,
+            "mili": 0,
+            "focu": 0,
+            "gend": 0,
+            "prog": 0,
+            "stru": 0
         }
     },
     {
-        "name": "Nazism",
+        "name": "Lorem Ipsum",
         "stats": {
-            "econ": 40,
-            "dipl": 0,
-            "govt": 0,
-            "scty": 5
+            "unit": 0,
+            "spec": 0,
+            "fede": 0,
+            "phil": 0,
+            "meth": 0,
+            "subj": 0,
+            "radi": 0,
+            "mili": 0,
+            "focu": 0,
+            "gend": 0,
+            "prog": 0,
+            "stru": 0
         }
     },
     {
-        "name": "Autocracy",
+        "name": "Lorem Ipsum",
         "stats": {
-            "econ": 50,
-            "dipl": 20,
-            "govt": 20,
-            "scty": 50
+            "unit": 0,
+            "spec": 0,
+            "fede": 0,
+            "phil": 0,
+            "meth": 0,
+            "subj": 0,
+            "radi": 0,
+            "mili": 0,
+            "focu": 0,
+            "gend": 0,
+            "prog": 0,
+            "stru": 0
         }
     },
     {
-        "name": "Fascism",
+        "name": "Lorem Ipsum",
         "stats": {
-            "econ": 40,
-            "dipl": 20,
-            "govt": 20,
-            "scty": 20
+            "unit": 0,
+            "spec": 0,
+            "fede": 0,
+            "phil": 0,
+            "meth": 0,
+            "subj": 0,
+            "radi": 0,
+            "mili": 0,
+            "focu": 0,
+            "gend": 0,
+            "prog": 0,
+            "stru": 0
         }
     },
     {
-        "name": "Capitalist Fascism",
+        "name": "Lorem Ipsum",
         "stats": {
-            "econ": 20,
-            "dipl": 20,
-            "govt": 20,
-            "scty": 20
+            "unit": 0,
+            "spec": 0,
+            "fede": 0,
+            "phil": 0,
+            "meth": 0,
+            "subj": 0,
+            "radi": 0,
+            "mili": 0,
+            "focu": 0,
+            "gend": 0,
+            "prog": 0,
+            "stru": 0
         }
     },
     {
-        "name": "Conservatism",
+        "name": "Lorem Ipsum",
         "stats": {
-            "econ": 30,
-            "dipl": 40,
-            "govt": 40,
-            "scty": 20
+            "unit": 0,
+            "spec": 0,
+            "fede": 0,
+            "phil": 0,
+            "meth": 0,
+            "subj": 0,
+            "radi": 0,
+            "mili": 0,
+            "focu": 0,
+            "gend": 0,
+            "prog": 0,
+            "stru": 0
         }
     },
     {
-        "name": "Neo-Liberalism",
+        "name": "Lorem Ipsum",
         "stats": {
-            "econ": 30,
-            "dipl": 30,
-            "govt": 50,
-            "scty": 60
+            "unit": 0,
+            "spec": 0,
+            "fede": 0,
+            "phil": 0,
+            "meth": 0,
+            "subj": 0,
+            "radi": 0,
+            "mili": 0,
+            "focu": 0,
+            "gend": 0,
+            "prog": 0,
+            "stru": 0
         }
     },
     {
-        "name": "Classical Liberalism",
+        "name": "Lorem Ipsum",
         "stats": {
-            "econ": 30,
-            "dipl": 60,
-            "govt": 60,
-            "scty": 80
+            "unit": 0,
+            "spec": 0,
+            "fede": 0,
+            "phil": 0,
+            "meth": 0,
+            "subj": 0,
+            "radi": 0,
+            "mili": 0,
+            "focu": 0,
+            "gend": 0,
+            "prog": 0,
+            "stru": 0
         }
     },
     {
-        "name": "Authoritarian Capitalism",
+        "name": "Lorem Ipsum",
         "stats": {
-            "econ": 20,
-            "dipl": 30,
-            "govt": 20,
-            "scty": 40
+            "unit": 0,
+            "spec": 0,
+            "fede": 0,
+            "phil": 0,
+            "meth": 0,
+            "subj": 0,
+            "radi": 0,
+            "mili": 0,
+            "focu": 0,
+            "gend": 0,
+            "prog": 0,
+            "stru": 0
         }
     },
     {
-        "name": "State Capitalism",
+        "name": "Lorem Ipsum",
         "stats": {
-            "econ": 20,
-            "dipl": 50,
-            "govt": 30,
-            "scty": 50
+            "unit": 0,
+            "spec": 0,
+            "fede": 0,
+            "phil": 0,
+            "meth": 0,
+            "subj": 0,
+            "radi": 0,
+            "mili": 0,
+            "focu": 0,
+            "gend": 0,
+            "prog": 0,
+            "stru": 0
         }
     },
     {
-        "name": "Neo-Conservatism",
+        "name": "Lorem Ipsum",
         "stats": {
-            "econ": 20,
-            "dipl": 20,
-            "govt": 40,
-            "scty": 20
+            "unit": 0,
+            "spec": 0,
+            "fede": 0,
+            "phil": 0,
+            "meth": 0,
+            "subj": 0,
+            "radi": 0,
+            "mili": 0,
+            "focu": 0,
+            "gend": 0,
+            "prog": 0,
+            "stru": 0
         }
     },
     {
-        "name": "Fundamentalism",
+        "name": "Lorem Ipsum",
         "stats": {
-            "econ": 20,
-            "dipl": 30,
-            "govt": 30,
-            "scty": 5
+            "unit": 0,
+            "spec": 0,
+            "fede": 0,
+            "phil": 0,
+            "meth": 0,
+            "subj": 0,
+            "radi": 0,
+            "mili": 0,
+            "focu": 0,
+            "gend": 0,
+            "prog": 0,
+            "stru": 0
         }
     },
     {
-        "name": "Libertarian Capitalism",
+        "name": "Lorem Ipsum",
         "stats": {
-            "econ": 20,
-            "dipl": 50,
-            "govt": 80,
-            "scty": 60
+            "unit": 0,
+            "spec": 0,
+            "fede": 0,
+            "phil": 0,
+            "meth": 0,
+            "subj": 0,
+            "radi": 0,
+            "mili": 0,
+            "focu": 0,
+            "gend": 0,
+            "prog": 0,
+            "stru": 0
         }
     },
     {
-        "name": "Market Anarchism",
+        "name": "Lorem Ipsum",
         "stats": {
-            "econ": 20,
-            "dipl": 50,
-            "govt": 100,
-            "scty": 50
+            "unit": 0,
+            "spec": 0,
+            "fede": 0,
+            "phil": 0,
+            "meth": 0,
+            "subj": 0,
+            "radi": 0,
+            "mili": 0,
+            "focu": 0,
+            "gend": 0,
+            "prog": 0,
+            "stru": 0
         }
     },
     {
-        "name": "Objectivism",
+        "name": "Lorem Ipsum",
         "stats": {
-            "econ": 10,
-            "dipl": 50,
-            "govt": 90,
-            "scty": 40
+            "unit": 0,
+            "spec": 0,
+            "fede": 0,
+            "phil": 0,
+            "meth": 0,
+            "subj": 0,
+            "radi": 0,
+            "mili": 0,
+            "focu": 0,
+            "gend": 0,
+            "prog": 0,
+            "stru": 0
         }
     },
     {
-        "name": "Totalitarian Capitalism",
+        "name": "Lorem Ipsum",
         "stats": {
-            "econ": 0,
-            "dipl": 30,
-            "govt": 0,
-            "scty": 50
+            "unit": 0,
+            "spec": 0,
+            "fede": 0,
+            "phil": 0,
+            "meth": 0,
+            "subj": 0,
+            "radi": 0,
+            "mili": 0,
+            "focu": 0,
+            "gend": 0,
+            "prog": 0,
+            "stru": 0
         }
     },
     {
-        "name": "Ultra-Capitalism",
+        "name": "Lorem Ipsum",
         "stats": {
-            "econ": 0,
-            "dipl": 40,
-            "govt": 50,
-            "scty": 50
+            "unit": 0,
+            "spec": 0,
+            "fede": 0,
+            "phil": 0,
+            "meth": 0,
+            "subj": 0,
+            "radi": 0,
+            "mili": 0,
+            "focu": 0,
+            "gend": 0,
+            "prog": 0,
+            "stru": 0
         }
     },
     {
-        "name": "Anarcho-Capitalism",
+        "name": "Lorem Ipsum",
         "stats": {
-            "econ": 0,
-            "dipl": 50,
-            "govt": 100,
-            "scty": 50
+            "unit": 0,
+            "spec": 0,
+            "fede": 0,
+            "phil": 0,
+            "meth": 0,
+            "subj": 0,
+            "radi": 0,
+            "mili": 0,
+            "focu": 0,
+            "gend": 0,
+            "prog": 0,
+            "stru": 0
         }
     }
 ];
