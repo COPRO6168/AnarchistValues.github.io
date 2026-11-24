@@ -301,7 +301,7 @@ window.onload = function () {
 
       ctx.fillStyle = "#222222";
       ctx.textAlign = "center";
-      ctx.fillText(axis[0] + " Axis", 400, y - 10);
+      ctx.fillText(axis[0], 400, y - 10);
       ctx.textAlign = "left";
       if (leftScore > 30) ctx.fillText(leftScore + "%", 130, y + 38);
       ctx.textAlign = "right";
