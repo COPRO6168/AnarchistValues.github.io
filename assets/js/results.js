@@ -24,127 +24,15 @@ function setBarValue(name, value) {
   }
 }
 
-unitArray = [
-  "Platform",
-  "Strongly Platform",
-  "Platform",
-  "Balanced",
-  "Synthesis",
-  "Strongly Synthesis",
-  "Synthesis",
-];
-specArray = ["Dualism", "Strongly Dualist", "Dualist", "Balanced", "Unitary", "Strongly Unitary", "Unitary"];
-fedeArray = [
-  "Coordination",
-  "Strongly Coordinating",
-  "Coordinating",
-  "Balanced",
-  "Autonomy",
-  "Strongly Autonomous",
-  "Autonomy",
-];
-philArray = [
-  "Materialism",
-  "Strongly Materialist",
-  "Materialist",
-  "Balanced",
-  "Idealism",
-  "Strongly Idealist",
-  "Idealism",
-];
-methArray = [
-  "Dialectic",
-  "Strongly Dialectical",
-  "Dialectical",
-  "Balanced",
-  "Empirical",
-  "Strongly Empirical",
-  "Empirical",
-];
-subjArray = [
-  "Class",
-  "Strongly Class-Based",
-  "Class-Based",
-  "Balanced",
-  "Identity",
-  "Strongly Identity-Based",
-  "Identity",
-];
-radiArray = [
-  "Revolution",
-  "Strongly Revolutionary",
-  "Revolutionary",
-  "Balanced",
-  "Reform",
-  "Strongly Reformist",
-  "Reform",
-];
-miliArray = [
-  "Violence",
-  "Strongly Militant",
-  "Militant",
-  "Balanced",
-  "Peaceful",
-  "Strongly Peaceful",
-  "Peaceful",
-];
-focuArray = [
-  "Activism",
-  "Strongly Activism-Focused",
-  "Activism-Focused",
-  "Balanced",
-  "Organizing",
-  "Strongly Organizing-Focused",
-  "Organizing",
-];
-gendArray = [
-  "Abolition",
-  "Strongly Abolitionist",
-  "Abolitionist",
-  "Balanced",
-  "Equality",
-  "Strongly Egalitarian",
-  "Equality",
-];
-progArray = [
-  "Technology",
-  "Strongly Technological",
-  "Technological",
-  "Balanced",
-  "Nature",
-  "Strongly Nature-Based",
-  "Nature",
-];
-struArray = [
-  "Central",
-  "Strongly Central",
-  "Centralized",
-  "Balanced",
-  "Loose",
-  "Strongly Decentralized",
-  "Loose",
-];
-
-function setLabel(val, ary) {
-  if (val > 100) {
-    return "";
-  } else if (val > 90) {
-    return ary[0];
-  } else if (val > 75) {
-    return ary[1];
-  } else if (val > 60) {
-    return ary[2];
-  } else if (val >= 40) {
-    return ary[3];
-  } else if (val >= 25) {
-    return ary[4];
-  } else if (val >= 10) {
-    return ary[5];
-  } else if (val >= 0) {
-    return ary[6];
-  } else {
-    return "";
-  }
+function setLabel(val, labels) {
+  if (val < 0 || val > 100) return "";
+  else if (val < 15) return labels.veryLow;
+  else if (val < 30) return labels.moderatelyLow;
+  else if (val < 45) return labels.slightlyLow;
+  else if (val < 55) return labels.balanced;
+  else if (val < 70) return labels.slightlyHigh;
+  else if (val < 85) return labels.moderatelyHigh;
+  else               return labels.veryHigh;
 }
 
 platform = getQueryVariable("unit");
@@ -197,18 +85,22 @@ setBarValue("nature", nature);
 setBarValue("central", central);
 setBarValue("loose", loose);
 
-document.getElementById("unity-label").innerHTML = setLabel(platform, unitArray);
-document.getElementById("specificity-label").innerHTML = setLabel(dualism, specArray);
-document.getElementById("federalism-label").innerHTML = setLabel(coordination, fedeArray);
-document.getElementById("philosophy-label").innerHTML = setLabel(materialism, philArray);
-document.getElementById("methodology-label").innerHTML = setLabel(dialectic, methArray);
-document.getElementById("subject-label").innerHTML = setLabel(class_, subjArray);
-document.getElementById("radicalness-label").innerHTML = setLabel(revolution, radiArray);
-document.getElementById("militancy-label").innerHTML = setLabel(violence, miliArray);
-document.getElementById("focus-label").innerHTML = setLabel(activism, focuArray);
-document.getElementById("genders-label").innerHTML = setLabel(abolition, gendArray);
-document.getElementById("progress-label").innerHTML = setLabel(technology, progArray);
-document.getElementById("structure-label").innerHTML = setLabel(central, struArray);
+import("../../data/axis-labels.js").then(({ axisLabels }) => {
+  document.getElementById("unity-label").innerHTML = setLabel(platform, axisLabels.unity);
+  document.getElementById("specificity-label").innerHTML = setLabel(dualism, axisLabels.specificity);
+  document.getElementById("federalism-label").innerHTML = setLabel(coordination, axisLabels.federalism);
+  document.getElementById("philosophy-label").innerHTML = setLabel(materialism, axisLabels.philosophy);
+  document.getElementById("methodology-label").innerHTML = setLabel(dialectic, axisLabels.methodology);
+  document.getElementById("subject-label").innerHTML = setLabel(class_, axisLabels.subject);
+  document.getElementById("radicalness-label").innerHTML = setLabel(revolution, axisLabels.radicalness);
+  document.getElementById("militancy-label").innerHTML = setLabel(violence, axisLabels.militancy);
+  document.getElementById("focus-label").innerHTML = setLabel(activism, axisLabels.focus);
+  document.getElementById("genders-label").innerHTML = setLabel(abolition, axisLabels.genders);
+  document.getElementById("progress-label").innerHTML = setLabel(technology, axisLabels.progress);
+  document.getElementById("structure-label").innerHTML = setLabel(central, axisLabels.structure);
+}).catch((error) => {
+  console.error("Failed to load axis labels.", error);
+});
 
 ideology = "";
 ideodist = Infinity;
@@ -243,16 +135,19 @@ function createImage(src, x, y, w, h) {
 
 window.onload = function () {
   const bannerImages = Array.from(document.querySelectorAll(".axis img"));
-  Promise.all(
-    bannerImages.map((img) =>
-      img.complete
-        ? Promise.resolve()
-        : new Promise((resolve) => {
-            img.onload = resolve;
-            img.onerror = resolve;
-          }),
+  Promise.all([
+    import("../../data/axes.js"),
+    Promise.all(
+      bannerImages.map((img) =>
+        img.complete
+          ? Promise.resolve()
+          : new Promise((resolve) => {
+              img.onload = resolve;
+              img.onerror = resolve;
+            }),
+      ),
     ),
-  ).then(() => {
+  ]).then(([{ axes }]) => {
     var c = document.createElement("canvas");
     var ctx = c.getContext("2d");
     c.width = 800;
@@ -271,46 +166,33 @@ window.onload = function () {
     ctx.fillText("AnarchistValues.github.io", 780, 60);
     ctx.fillText(version, 780, 90);
 
-    const axes = [
-      ["Unity", "platform", "synthesis", "#CCFFAA", "#558800"],
-      ["Specificity", "dualism", "unitary", "#AAFFAA", "#008800"],
-      ["Federalism", "coordination", "autonomy", "#AAFFCC", "#008855"],
-      ["Philosophy", "materialism", "idealism", "#AAFFFF", "#008888"],
-      ["Methodology", "dialectic", "empirical", "#AACCFF", "#005588"],
-      ["Subject", "class", "identity", "#AAAAFF", "#000088"],
-      ["Radicalness", "revolution", "reform", "#CCAAFF", "#550088"],
-      ["Militancy", "violence", "peaceful", "#FFAAFF", "#880088"],
-      ["Focus", "activism", "organizing", "#FFAACC", "#880055"],
-      ["Genders", "abolition", "equality", "#FFAAAA", "#880000"],
-      ["Progress", "technology", "nature", "#FFCCAA", "#885500"],
-      ["Structure", "central", "loose", "#FFFFAA", "#888800"],
-    ];
-
     ctx.font = "300 24px Montserrat";
     axes.forEach((axis, index) => {
       const y = 180 + index * 105;
-      const leftScore = parseFloat(document.getElementById(axis[1]).innerHTML) || 0;
-      const rightScore = parseFloat(document.getElementById(axis[2]).innerHTML) || 0;
+      const leftScore = parseFloat(document.getElementById(axis.leftValueId).innerHTML) || 0;
+      const rightScore = parseFloat(document.getElementById(axis.rightValueId).innerHTML) || 0;
 
       ctx.fillStyle = "#222222";
       ctx.fillRect(120, y, 560, 60);
-      ctx.fillStyle = axis[3];
+      ctx.fillStyle = axis.leftColor;
       ctx.fillRect(120, y + 4, 5.6 * leftScore - 2, 52);
-      ctx.fillStyle = axis[4];
+      ctx.fillStyle = axis.rightColor;
       ctx.fillRect(682 - 5.6 * rightScore, y + 4, 5.6 * rightScore - 2, 52);
 
       ctx.fillStyle = "#222222";
       ctx.textAlign = "center";
-      ctx.fillText(axis[0], 400, y - 10);
+      ctx.fillText(axis.label, 400, y - 10);
       ctx.textAlign = "left";
       if (leftScore > 30) ctx.fillText(leftScore + "%", 130, y + 38);
       ctx.textAlign = "right";
       if (rightScore > 30) ctx.fillText(rightScore + "%", 670, y + 38);
 
-      ctx.drawImage(document.getElementById("img-" + axis[1]), 20, y - 20, 100, 100);
-      ctx.drawImage(document.getElementById("img-" + axis[2]), 680, y - 20, 100, 100);
+      ctx.drawImage(document.getElementById("img-" + axis.leftValueId), 20, y - 20, 100, 100);
+      ctx.drawImage(document.getElementById("img-" + axis.rightValueId), 680, y - 20, 100, 100);
     });
 
     document.getElementById("banner").src = c.toDataURL();
+  }).catch((error) => {
+    console.error("Failed to load axis data.", error);
   });
 };

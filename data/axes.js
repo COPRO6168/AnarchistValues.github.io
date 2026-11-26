@@ -1,0 +1,88 @@
+// SPDX-License-Identifier: GPL-3.0-or-later
+
+export const axes = [
+  {
+    label: "Unity",
+    leftValueId: "platform",
+    rightValueId: "synthesis",
+    leftColor: "#CCFFAA",
+    rightColor: "#558800",
+  },
+  {
+    label: "Specificity",
+    leftValueId: "dualism",
+    rightValueId: "unitary",
+    leftColor: "#AAFFAA",
+    rightColor: "#008800",
+  },
+  {
+    label: "Federalism",
+    leftValueId: "coordination",
+    rightValueId: "autonomy",
+    leftColor: "#AAFFCC",
+    rightColor: "#008855",
+  },
+  {
+    label: "Philosophy",
+    leftValueId: "materialism",
+    rightValueId: "idealism",
+    leftColor: "#AAFFFF",
+    rightColor: "#008888",
+  },
+  {
+    label: "Methodology",
+    leftValueId: "dialectic",
+    rightValueId: "empirical",
+    leftColor: "#AACCFF",
+    rightColor: "#005588",
+  },
+  {
+    label: "Subject",
+    leftValueId: "class",
+    rightValueId: "identity",
+    leftColor: "#AAAAFF",
+    rightColor: "#000088",
+  },
+  {
+    label: "Radicalness",
+    leftValueId: "revolution",
+    rightValueId: "reform",
+    leftColor: "#CCAAFF",
+    rightColor: "#550088",
+  },
+  {
+    label: "Militancy",
+    leftValueId: "violence",
+    rightValueId: "peaceful",
+    leftColor: "#FFAAFF",
+    rightColor: "#880088",
+  },
+  {
+    label: "Focus",
+    leftValueId: "activism",
+    rightValueId: "organizing",
+    leftColor: "#FFAACC",
+    rightColor: "#880055",
+  },
+  {
+    label: "Genders",
+    leftValueId: "abolition",
+    rightValueId: "equality",
+    leftColor: "#FFAAAA",
+    rightColor: "#880000",
+  },
+  {
+    label: "Progress",
+    leftValueId: "technology",
+    rightValueId: "nature",
+    leftColor: "#FFCCAA",
+    rightColor: "#885500",
+  },
+  {
+    label: "Structure",
+    leftValueId: "central",
+    rightValueId: "loose",
+    leftColor: "#FFFFAA",
+    rightColor: "#888800",
+  },
+];
