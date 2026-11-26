@@ -85,45 +85,57 @@ setBarValue("nature", nature);
 setBarValue("central", central);
 setBarValue("loose", loose);
 
-import("../../data/axis-labels.js").then(({ axisLabels }) => {
-  document.getElementById("unity-label").innerHTML = setLabel(platform, axisLabels.unity);
-  document.getElementById("specificity-label").innerHTML = setLabel(dualism, axisLabels.specificity);
-  document.getElementById("federalism-label").innerHTML = setLabel(coordination, axisLabels.federalism);
-  document.getElementById("philosophy-label").innerHTML = setLabel(materialism, axisLabels.philosophy);
-  document.getElementById("methodology-label").innerHTML = setLabel(dialectic, axisLabels.methodology);
-  document.getElementById("subject-label").innerHTML = setLabel(class_, axisLabels.subject);
-  document.getElementById("radicalness-label").innerHTML = setLabel(revolution, axisLabels.radicalness);
-  document.getElementById("militancy-label").innerHTML = setLabel(violence, axisLabels.militancy);
-  document.getElementById("focus-label").innerHTML = setLabel(activism, axisLabels.focus);
-  document.getElementById("genders-label").innerHTML = setLabel(abolition, axisLabels.genders);
-  document.getElementById("progress-label").innerHTML = setLabel(technology, axisLabels.progress);
-  document.getElementById("structure-label").innerHTML = setLabel(central, axisLabels.structure);
-}).catch((error) => {
-  console.error("Failed to load axis labels.", error);
-});
-
-ideology = "";
-ideodist = Infinity;
-for (var i = 0; i < ideologies.length; i++) {
-  dist = 0;
-  dist += Math.pow(Math.abs(ideologies[i].stats.unit - platform), 2);
-  dist += Math.pow(Math.abs(ideologies[i].stats.spec - dualism), 2);
-  dist += Math.pow(Math.abs(ideologies[i].stats.fede - coordination), 2);
-  dist += Math.pow(Math.abs(ideologies[i].stats.phil - materialism), 2);
-  dist += Math.pow(Math.abs(ideologies[i].stats.meth - dialectic), 2);
-  dist += Math.pow(Math.abs(ideologies[i].stats.subj - class_), 2);
-  dist += Math.pow(Math.abs(ideologies[i].stats.radi - revolution), 2);
-  dist += Math.pow(Math.abs(ideologies[i].stats.mili - violence), 2);
-  dist += Math.pow(Math.abs(ideologies[i].stats.focu - activism), 2);
-  dist += Math.pow(Math.abs(ideologies[i].stats.gend - abolition), 2);
-  dist += Math.pow(Math.abs(ideologies[i].stats.prog - technology), 2);
-  dist += Math.pow(Math.abs(ideologies[i].stats.stru - central), 2);
-  if (dist < ideodist) {
-    ideology = ideologies[i].name;
-    ideodist = dist;
-  }
+function loadJson(path) {
+  return fetch(path).then((response) => {
+    if (!response.ok) throw new Error(`HTTP ${response.status}`);
+    return response.json();
+  });
 }
-document.getElementById("ideology-label").innerHTML = ideology;
+
+Promise.all([
+  loadJson("data/axis-labels.json"),
+  loadJson("data/ideologies.json"),
+])
+  .then(([axisLabels, ideologies]) => {
+    document.getElementById("unity-label").innerHTML = setLabel(platform, axisLabels.unity);
+    document.getElementById("specificity-label").innerHTML = setLabel(dualism, axisLabels.specificity);
+    document.getElementById("federalism-label").innerHTML = setLabel(coordination, axisLabels.federalism);
+    document.getElementById("philosophy-label").innerHTML = setLabel(materialism, axisLabels.philosophy);
+    document.getElementById("methodology-label").innerHTML = setLabel(dialectic, axisLabels.methodology);
+    document.getElementById("subject-label").innerHTML = setLabel(class_, axisLabels.subject);
+    document.getElementById("radicalness-label").innerHTML = setLabel(revolution, axisLabels.radicalness);
+    document.getElementById("militancy-label").innerHTML = setLabel(violence, axisLabels.militancy);
+    document.getElementById("focus-label").innerHTML = setLabel(activism, axisLabels.focus);
+    document.getElementById("genders-label").innerHTML = setLabel(abolition, axisLabels.genders);
+    document.getElementById("progress-label").innerHTML = setLabel(technology, axisLabels.progress);
+    document.getElementById("structure-label").innerHTML = setLabel(central, axisLabels.structure);
+
+    let ideology = "";
+    let ideologyDistance = Infinity;
+    for (const candidate of ideologies) {
+      let dist = 0;
+      dist += Math.pow(Math.abs(candidate.stats.unit - platform), 2);
+      dist += Math.pow(Math.abs(candidate.stats.spec - dualism), 2);
+      dist += Math.pow(Math.abs(candidate.stats.fede - coordination), 2);
+      dist += Math.pow(Math.abs(candidate.stats.phil - materialism), 2);
+      dist += Math.pow(Math.abs(candidate.stats.meth - dialectic), 2);
+      dist += Math.pow(Math.abs(candidate.stats.subj - class_), 2);
+      dist += Math.pow(Math.abs(candidate.stats.radi - revolution), 2);
+      dist += Math.pow(Math.abs(candidate.stats.mili - violence), 2);
+      dist += Math.pow(Math.abs(candidate.stats.focu - activism), 2);
+      dist += Math.pow(Math.abs(candidate.stats.gend - abolition), 2);
+      dist += Math.pow(Math.abs(candidate.stats.prog - technology), 2);
+      dist += Math.pow(Math.abs(candidate.stats.stru - central), 2);
+      if (dist < ideologyDistance) {
+        ideology = candidate.name;
+        ideologyDistance = dist;
+      }
+    }
+    document.getElementById("ideology-label").innerHTML = ideology;
+  })
+  .catch((error) => {
+    console.error("Failed to load result data.", error);
+  });
 
 function createImage(src, x, y, w, h) {
   img = new Image();
@@ -136,7 +148,7 @@ function createImage(src, x, y, w, h) {
 window.onload = function () {
   const bannerImages = Array.from(document.querySelectorAll(".axis img"));
   Promise.all([
-    import("../../data/axes.js"),
+    loadJson("data/axes.json"),
     Promise.all(
       bannerImages.map((img) =>
         img.complete
@@ -147,7 +159,7 @@ window.onload = function () {
             }),
       ),
     ),
-  ]).then(([{ axes }]) => {
+  ]).then(([axes]) => {
     var c = document.createElement("canvas");
     var ctx = c.getContext("2d");
     c.width = 800;

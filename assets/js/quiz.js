@@ -1,118 +1,117 @@
 // SPDX-License-Identifier: GPL-3.0-or-later
 
-var max_unit = 0,
-  max_spec = 0,
-  max_fede = 0,
-  max_phil = 0,
-  max_meth = 0,
-  max_subj = 0,
-  max_radi = 0,
-  max_mili = 0,
-  max_focu = 0,
-  max_gend = 0,
-  max_prog = 0,
-  max_stru = 0;
-let unit_array = new Array(questions.length);
-let spec_array = new Array(questions.length);
-let fede_array = new Array(questions.length);
-let phil_array = new Array(questions.length);
-let meth_array = new Array(questions.length);
-let subj_array = new Array(questions.length);
-let radi_array = new Array(questions.length);
-let mili_array = new Array(questions.length);
-let focu_array = new Array(questions.length);
-let gend_array = new Array(questions.length);
-let prog_array = new Array(questions.length);
-let stru_array = new Array(questions.length);
-var qn = 0; // Question number
-init_question();
-for (var i = 0; i < questions.length; i++) {
-  max_unit += Math.abs(questions[i].effect.unit);
-  max_spec += Math.abs(questions[i].effect.spec);
-  max_fede += Math.abs(questions[i].effect.fede);
-  max_phil += Math.abs(questions[i].effect.phil);
-  max_meth += Math.abs(questions[i].effect.meth);
-  max_subj += Math.abs(questions[i].effect.subj);
-  max_radi += Math.abs(questions[i].effect.radi);
-  max_mili += Math.abs(questions[i].effect.mili);
-  max_focu += Math.abs(questions[i].effect.focu);
-  max_gend += Math.abs(questions[i].effect.gend);
-  max_prog += Math.abs(questions[i].effect.prog);
-  max_stru += Math.abs(questions[i].effect.stru);
-}
-function init_question() {
-  document.getElementById("question-text").innerHTML = questions[qn].question;
-  document.getElementById("question-number").innerHTML = "Question " + (qn + 1) + " of " + questions.length;
-  if (qn == 0) {
-    document.getElementById("back_button").style.display = "none";
-    document.getElementById("back_button_off").style.display = "block";
-  } else {
-    document.getElementById("back_button").style.display = "block";
-    document.getElementById("back_button_off").style.display = "none";
-  }
-}
+fetch("data/questions.json")
+  .then((response) => {
+    if (!response.ok) throw new Error(`HTTP ${response.status}`);
+    return response.json();
+  })
+  .then((questions) => {
+    let maxUnit = 0;
+    let maxSpec = 0;
+    let maxFede = 0;
+    let maxPhil = 0;
+    let maxMeth = 0;
+    let maxSubj = 0;
+    let maxRadi = 0;
+    let maxMili = 0;
+    let maxFocu = 0;
+    let maxGend = 0;
+    let maxProg = 0;
+    let maxStru = 0;
+    const unitArray = new Array(questions.length);
+    const specArray = new Array(questions.length);
+    const fedeArray = new Array(questions.length);
+    const philArray = new Array(questions.length);
+    const methArray = new Array(questions.length);
+    const subjArray = new Array(questions.length);
+    const radiArray = new Array(questions.length);
+    const miliArray = new Array(questions.length);
+    const focuArray = new Array(questions.length);
+    const gendArray = new Array(questions.length);
+    const progArray = new Array(questions.length);
+    const struArray = new Array(questions.length);
+    let questionNumber = 0;
 
-function next_question(mult) {
-  unit_array[qn] = mult * questions[qn].effect.unit;
-  spec_array[qn] = mult * questions[qn].effect.spec;
-  fede_array[qn] = mult * questions[qn].effect.fede;
-  phil_array[qn] = mult * questions[qn].effect.phil;
-  meth_array[qn] = mult * questions[qn].effect.meth;
-  subj_array[qn] = mult * questions[qn].effect.subj;
-  radi_array[qn] = mult * questions[qn].effect.radi;
-  mili_array[qn] = mult * questions[qn].effect.mili;
-  focu_array[qn] = mult * questions[qn].effect.focu;
-  gend_array[qn] = mult * questions[qn].effect.gend;
-  prog_array[qn] = mult * questions[qn].effect.prog;
-  stru_array[qn] = mult * questions[qn].effect.stru;
-  qn++;
-  if (qn < questions.length) {
-    init_question();
-  } else {
-    results();
-  }
-}
+    for (const question of questions) {
+      maxUnit += Math.abs(question.effect.unit);
+      maxSpec += Math.abs(question.effect.spec);
+      maxFede += Math.abs(question.effect.fede);
+      maxPhil += Math.abs(question.effect.phil);
+      maxMeth += Math.abs(question.effect.meth);
+      maxSubj += Math.abs(question.effect.subj);
+      maxRadi += Math.abs(question.effect.radi);
+      maxMili += Math.abs(question.effect.mili);
+      maxFocu += Math.abs(question.effect.focu);
+      maxGend += Math.abs(question.effect.gend);
+      maxProg += Math.abs(question.effect.prog);
+      maxStru += Math.abs(question.effect.stru);
+    }
 
-function prev_question() {
-  if (qn == 0) {
-    return;
-  }
-  qn--;
-  init_question();
-}
+    function initQuestion() {
+      document.getElementById("question-text").innerHTML = questions[questionNumber].question;
+      document.getElementById("question-number").innerHTML =
+        "Question " + (questionNumber + 1) + " of " + questions.length;
+      if (questionNumber == 0) {
+        document.getElementById("back_button").style.display = "none";
+        document.getElementById("back_button_off").style.display = "block";
+      } else {
+        document.getElementById("back_button").style.display = "block";
+        document.getElementById("back_button_off").style.display = "none";
+      }
+    }
 
-function calc_score(score, max) {
-  if (max === 0) {
-    return "50.0";
-  }
-  return ((100 * (max + score)) / (2 * max)).toFixed(1);
-}
+    function calcScore(score, max) {
+      return max === 0 ? "50.0" : ((100 * (max + score)) / (2 * max)).toFixed(1);
+    }
 
-function results() {
-  let final_unit = unit_array.reduce((a, b) => a + b, 0);
-  let final_spec = spec_array.reduce((a, b) => a + b, 0);
-  let final_fede = fede_array.reduce((a, b) => a + b, 0);
-  let final_phil = phil_array.reduce((a, b) => a + b, 0);
-  let final_meth = meth_array.reduce((a, b) => a + b, 0);
-  let final_subj = subj_array.reduce((a, b) => a + b, 0);
-  let final_radi = radi_array.reduce((a, b) => a + b, 0);
-  let final_mili = mili_array.reduce((a, b) => a + b, 0);
-  let final_focu = focu_array.reduce((a, b) => a + b, 0);
-  let final_gend = gend_array.reduce((a, b) => a + b, 0);
-  let final_prog = prog_array.reduce((a, b) => a + b, 0);
-  let final_stru = stru_array.reduce((a, b) => a + b, 0);
-  location.href =
-    `results.html` +
-    `?unit=${calc_score(final_unit, max_unit)}` +
-    `&spec=${calc_score(final_spec, max_spec)}` +
-    `&fede=${calc_score(final_fede, max_fede)}` +
-    `&phil=${calc_score(final_phil, max_phil)}` +
-    `&meth=${calc_score(final_meth, max_meth)}` +
-    `&subj=${calc_score(final_subj, max_subj)}` +
-    `&radi=${calc_score(final_radi, max_radi)}` +
-    `&mili=${calc_score(final_mili, max_mili)}` +
-    `&focu=${calc_score(final_focu, max_focu)}` +
-    `&gend=${calc_score(final_gend, max_gend)}` +
-    `&prog=${calc_score(final_prog, max_prog)}` +
-    `&stru=${calc_score(final_stru, max_stru)}`;
-}
+    function results() {
+      const scores = [
+        unitArray.reduce((a, b) => a + b, 0),
+        specArray.reduce((a, b) => a + b, 0),
+        fedeArray.reduce((a, b) => a + b, 0),
+        philArray.reduce((a, b) => a + b, 0),
+        methArray.reduce((a, b) => a + b, 0),
+        subjArray.reduce((a, b) => a + b, 0),
+        radiArray.reduce((a, b) => a + b, 0),
+        miliArray.reduce((a, b) => a + b, 0),
+        focuArray.reduce((a, b) => a + b, 0),
+        gendArray.reduce((a, b) => a + b, 0),
+        progArray.reduce((a, b) => a + b, 0),
+        struArray.reduce((a, b) => a + b, 0),
+      ];
+      const maxima = [maxUnit, maxSpec, maxFede, maxPhil, maxMeth, maxSubj, maxRadi, maxMili, maxFocu, maxGend, maxProg, maxStru];
+      const ids = ["unit", "spec", "fede", "phil", "meth", "subj", "radi", "mili", "focu", "gend", "prog", "stru"];
+      const params = ids.map((id, index) => `${id}=${calcScore(scores[index], maxima[index])}`).join("&");
+      location.href = `results.html?${params}`;
+    }
+
+    window.next_question = function (mult) {
+      unitArray[questionNumber] = mult * questions[questionNumber].effect.unit;
+      specArray[questionNumber] = mult * questions[questionNumber].effect.spec;
+      fedeArray[questionNumber] = mult * questions[questionNumber].effect.fede;
+      philArray[questionNumber] = mult * questions[questionNumber].effect.phil;
+      methArray[questionNumber] = mult * questions[questionNumber].effect.meth;
+      subjArray[questionNumber] = mult * questions[questionNumber].effect.subj;
+      radiArray[questionNumber] = mult * questions[questionNumber].effect.radi;
+      miliArray[questionNumber] = mult * questions[questionNumber].effect.mili;
+      focuArray[questionNumber] = mult * questions[questionNumber].effect.focu;
+      gendArray[questionNumber] = mult * questions[questionNumber].effect.gend;
+      progArray[questionNumber] = mult * questions[questionNumber].effect.prog;
+      struArray[questionNumber] = mult * questions[questionNumber].effect.stru;
+      questionNumber++;
+      if (questionNumber < questions.length) initQuestion();
+      else results();
+    };
+
+    window.prev_question = function () {
+      if (questionNumber == 0) return;
+      questionNumber--;
+      initQuestion();
+    };
+
+    initQuestion();
+  })
+  .catch((error) => {
+    console.error("Failed to load questions.", error);
+    document.getElementById("question-number").innerHTML = "Failed to load questions";
+  });
