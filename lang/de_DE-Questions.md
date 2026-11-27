@@ -2,7 +2,7 @@
 
 ### Einheit
 
-- Eine anarchistische Organisation sollte eine programmatische Einheit anstreben, um handlungsfähiger zu sein.
+- Eine anarchistische Organisation sollte eine enge programmatische Einheit anstreben, um handlungsfähiger zu sein.
 - Eine Vielfalt an Strategien und Taktiken innerhalb einer Organisation ist wichtiger als eine Einheit darin.
 - Anarchist:innen sollten sich nach freiwilliger Disziplin und klarer Struktur in einer einheitlichen Organisation zusammenfinden.
 - Eine breite Synthese verschiedener Ideen und Richtungen fördert Vielfalt und lässt eine Organisation wachsen.
@@ -21,7 +21,7 @@
 - Dezentralisierte, autonome Gruppen sind effektiver als zentral koordinierende Strukturen.
 - Ohne eine koordinierte Strategie bleibt der anarchistische Kampf fragmentiert und ineffektiv.
 - Autonomie einzelner Kollektive darf nicht durch übergeordnete Strukturen eingeschränkt werden.
-- Anarchistische Organisationen müssen präfigurativ sein und sollten daher keine Hierarchien erlauben.
+- In anarchistischen Organisationen sollte es weder große Skill-/Wissenshierarchien noch gewählte Funktionäre geben.
 - Selbstverwaltung ist nur dann wirksam, wenn sie mit anderen Gruppen koordiniert und kollektiv gestaltet wird.
 
 ## Theorie
@@ -32,7 +32,7 @@
 - Gesellschaftliche Veränderungen entstehen primär durch neue Ideen und Werte.
 - Materielle Produktionsverhältnisse sind der zentrale Motor der Menschheitsgeschichte.
 - Individuelle Moral und Ethik sind die Haupttriebkräfte gesellschaftlichen Wandels.
-- Die Entwicklung von Technologie und Wirtschaft bestimmt die Ideologien innerhalb der Gesellschaft.
+- Die Produktions- und Eigentumsverhältnisse bestimmen die Ideologien innerhalb einer Gesellschaft.
 
 ### Methodik
 

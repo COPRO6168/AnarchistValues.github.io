@@ -2,7 +2,7 @@
 
 ### Unity
 
-- An anarchist organization should strive for programmatic unity in order to be more effective.
+- An anarchist organization should strive for stronger programmatic unity in order to be more effective.
 - A diversity of strategies and tactics within an organization is more important than unity within it.
 - Anarchists should come together in a unified organization based on voluntary discipline and clear structure.
 - A broad synthesis of different ideas and approaches promotes diversity and allows an organization to grow.
@@ -21,8 +21,8 @@
 - Decentralized, autonomous groups are more effective than centrally coordinated structures.
 - Without a coordinated strategy, the anarchist struggle remains fragmented and ineffective.
 - The autonomy of individual collectives must not be restricted by higher-level structures.
-- Anarchist organizations must be prefigurative and should therefore not allow hierarchies.
-- Self-governance is effective only when it is coordinated with other groups and shaped collectively.
+- In anarchist organizations, there should be neither significant hierarchies based on skills or knowledge nor elected officials.
+- Self-organisation is effective only when it is coordinated with other groups and shaped collectively.
 
 ## Theory
 
@@ -32,7 +32,7 @@
 - Social change arises primarily from new ideas and values.
 - Material relations of production are the central driving force of human history.
 - Individual morality and ethics are the main driving forces of social change.
-- The development of technology and the economy determines the ideologies within society.
+- The relations of production and property determine the ideologies within society.
 
 ### Methodology
 
@@ -46,7 +46,7 @@
 
 - Humanity is primarily divided along lines of gender, nationality, ethnicity, religion, and other identities.
 - A socially just society can only be achieved through the recognition and promotion of specific identities.
-- The defining characteristic of a society’s exploited class is its economic leverage for change.
+- The defining characteristic of a society's exploited class is its economic leverage for change.
 - Discrimination and marginalization can be understood and combated independently of the economic base.
 - The consistent dismantling of class society automatically leads to the abolition of all forms of oppression.
 
@@ -74,7 +74,7 @@
 - Self-organizing in everyday life empowers people more than large, high-profile protests or campaigns.
 - Without spectacular, high-profile actions, a movement will fade away, no matter how self-organized it is.
 - Campaigning on specific issues can mobilize more people than grassroots work in everyday life.
-- Large, media-friendly campaigns quickly fizzle out if they aren’t backed by grassroots structures that have grown over the years.
+- Large, media-friendly campaigns quickly fizzle out if they aren't backed by grassroots structures that have grown over the years.
 
 ## Society
 
@@ -82,7 +82,7 @@
 
 - Only the abolition of gender will truly achieve equality between trans and cis people.
 - Sexual freedom goes hand in hand with the abolition of both normative and queer identities.
-- Women’s liberation will be complete once the category “woman” and gendered language, culture, and infrastructure no longer exist.
+- Women's liberation will be complete once the category “woman” and gendered language, culture, and infrastructure no longer exist.
 - Genders will always exist, which is why equality and recognition of all genders are essential.
 - Biological foundations give rise to social gender characteristics that must be actively combated or regulated.
 

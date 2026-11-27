@@ -1,178 +1,8 @@
 [
   {
-    "question": "Lorem Ipsum",
+    "question": "An anarchist organization should strive for stronger programmatic unity in order to be more effective.",
     "effect": {
-      "unit": 0,
-      "spec": 0,
-      "fede": 0,
-      "phil": 0,
-      "meth": 0,
-      "subj": 0,
-      "radi": 0,
-      "mili": 0,
-      "focu": 0,
-      "gend": 0,
-      "prog": 0,
-      "stru": 0
-    }
-  },
-  {
-    "question": "Lorem Ipsum",
-    "effect": {
-      "unit": 0,
-      "spec": 0,
-      "fede": 0,
-      "phil": 0,
-      "meth": 0,
-      "subj": 0,
-      "radi": 0,
-      "mili": 0,
-      "focu": 0,
-      "gend": 0,
-      "prog": 0,
-      "stru": 0
-    }
-  },
-  {
-    "question": "Lorem Ipsum",
-    "effect": {
-      "unit": 0,
-      "spec": 0,
-      "fede": 0,
-      "phil": 0,
-      "meth": 0,
-      "subj": 0,
-      "radi": 0,
-      "mili": 0,
-      "focu": 0,
-      "gend": 0,
-      "prog": 0,
-      "stru": 0
-    }
-  },
-  {
-    "question": "Lorem Ipsum",
-    "effect": {
-      "unit": 0,
-      "spec": 0,
-      "fede": 0,
-      "phil": 0,
-      "meth": 0,
-      "subj": 0,
-      "radi": 0,
-      "mili": 0,
-      "focu": 0,
-      "gend": 0,
-      "prog": 0,
-      "stru": 0
-    }
-  },
-  {
-    "question": "Lorem Ipsum",
-    "effect": {
-      "unit": 0,
-      "spec": 0,
-      "fede": 0,
-      "phil": 0,
-      "meth": 0,
-      "subj": 0,
-      "radi": 0,
-      "mili": 0,
-      "focu": 0,
-      "gend": 0,
-      "prog": 0,
-      "stru": 0
-    }
-  },
-  {
-    "question": "Lorem Ipsum",
-    "effect": {
-      "unit": 0,
-      "spec": 0,
-      "fede": 0,
-      "phil": 0,
-      "meth": 0,
-      "subj": 0,
-      "radi": 0,
-      "mili": 0,
-      "focu": 0,
-      "gend": 0,
-      "prog": 0,
-      "stru": 0
-    }
-  },
-  {
-    "question": "Lorem Ipsum",
-    "effect": {
-      "unit": 0,
-      "spec": 0,
-      "fede": 0,
-      "phil": 0,
-      "meth": 0,
-      "subj": 0,
-      "radi": 0,
-      "mili": 0,
-      "focu": 0,
-      "gend": 0,
-      "prog": 0,
-      "stru": 0
-    }
-  },
-  {
-    "question": "Lorem Ipsum",
-    "effect": {
-      "unit": 0,
-      "spec": 0,
-      "fede": 0,
-      "phil": 0,
-      "meth": 0,
-      "subj": 0,
-      "radi": 0,
-      "mili": 0,
-      "focu": 0,
-      "gend": 0,
-      "prog": 0,
-      "stru": 0
-    }
-  },
-  {
-    "question": "Lorem Ipsum",
-    "effect": {
-      "unit": 0,
-      "spec": 0,
-      "fede": 0,
-      "phil": 0,
-      "meth": 0,
-      "subj": 0,
-      "radi": 0,
-      "mili": 0,
-      "focu": 0,
-      "gend": 0,
-      "prog": 0,
-      "stru": 0
-    }
-  },
-  {
-    "question": "Lorem Ipsum",
-    "effect": {
-      "unit": 0,
-      "spec": 0,
-      "fede": 0,
-      "phil": 0,
-      "meth": 0,
-      "subj": 0,
-      "radi": 0,
-      "mili": 0,
-      "focu": 0,
-      "gend": 0,
-      "prog": 0,
-      "stru": 0
-    }
-  },
-  {
-    "question": "Lorem Ipsum",
-    "effect": {
-      "unit": 0,
+      "unit": 1,
       "spec": 0,
       "fede": 0,
       "phil": 0,
@@ -187,9 +17,9 @@
     }
   },
   {
-    "question": "Lorem Ipsum",
+    "question": "A diversity of strategies and tactics within an organization is more important than unity within it.",
     "effect": {
-      "unit": 0,
+      "unit": -1,
       "spec": 0,
       "fede": 0,
       "phil": 0,
@@ -204,9 +34,9 @@
     }
   },
   {
-    "question": "Lorem Ipsum",
+    "question": "Anarchists should come together in a unified organization based on voluntary discipline and clear structure.",
     "effect": {
-      "unit": 0,
+      "unit": 1,
       "spec": 0,
       "fede": 0,
       "phil": 0,
@@ -221,9 +51,9 @@
     }
   },
   {
-    "question": "Lorem Ipsum",
+    "question": "A broad synthesis of different ideas and approaches promotes diversity and allows an organization to grow.",
     "effect": {
-      "unit": 0,
+      "unit": -1,
       "spec": 0,
       "fede": 0,
       "phil": 0,
@@ -238,9 +68,9 @@
     }
   },
   {
-    "question": "Lorem Ipsum",
+    "question": "All members of an anarchist organization should follow a common, collectively agreed-upon political line.",
     "effect": {
-      "unit": 0,
+      "unit": 1,
       "spec": 0,
       "fede": 0,
       "phil": 0,
@@ -255,10 +85,10 @@
     }
   },
   {
-    "question": "Lorem Ipsum",
+    "question": "Revolutionary anarchists should organize themselves within both anarchist membership organizations and mass movements.",
     "effect": {
       "unit": 0,
-      "spec": 0,
+      "spec": 1,
       "fede": 0,
       "phil": 0,
       "meth": 0,
@@ -272,10 +102,10 @@
     }
   },
   {
-    "question": "Lorem Ipsum",
+    "question": "A strong unified organization that brings together all struggles is more effective than separate revolutionary and mass organizations.",
     "effect": {
       "unit": 0,
-      "spec": 0,
+      "spec": -1,
       "fede": 0,
       "phil": 0,
       "meth": 0,
@@ -289,10 +119,10 @@
     }
   },
   {
-    "question": "Lorem Ipsum",
+    "question": "Both a political organization and mass organizations are needed to advance the social revolution.",
     "effect": {
       "unit": 0,
-      "spec": 0,
+      "spec": 1,
       "fede": 0,
       "phil": 0,
       "meth": 0,
@@ -306,10 +136,10 @@
     }
   },
   {
-    "question": "Lorem Ipsum",
+    "question": "Anarchists should be part of a single revolutionary organization rather than working outside of it.",
     "effect": {
       "unit": 0,
-      "spec": 0,
+      "spec": -1,
       "fede": 0,
       "phil": 0,
       "meth": 0,
@@ -323,10 +153,10 @@
     }
   },
   {
-    "question": "Lorem Ipsum",
+    "question": "Specifically anarchist organizations are necessary because mass organizations can lose their revolutionary potential.",
     "effect": {
       "unit": 0,
-      "spec": 0,
+      "spec": 1,
       "fede": 0,
       "phil": 0,
       "meth": 0,
@@ -340,11 +170,11 @@
     }
   },
   {
-    "question": "Lorem Ipsum",
+    "question": "Decentralized, autonomous groups are more effective than centrally coordinated structures.",
     "effect": {
       "unit": 0,
       "spec": 0,
-      "fede": 0,
+      "fede": -1,
       "phil": 0,
       "meth": 0,
       "subj": 0,
@@ -357,11 +187,11 @@
     }
   },
   {
-    "question": "Lorem Ipsum",
+    "question": "Without a coordinated strategy, the anarchist struggle remains fragmented and ineffective.",
     "effect": {
       "unit": 0,
       "spec": 0,
-      "fede": 0,
+      "fede": 1,
       "phil": 0,
       "meth": 0,
       "subj": 0,
@@ -374,11 +204,11 @@
     }
   },
   {
-    "question": "Lorem Ipsum",
+    "question": "The autonomy of individual collectives must not be restricted by higher-level structures.",
     "effect": {
       "unit": 0,
       "spec": 0,
-      "fede": 0,
+      "fede": -1,
       "phil": 0,
       "meth": 0,
       "subj": 0,
@@ -391,11 +221,11 @@
     }
   },
   {
-    "question": "Lorem Ipsum",
+    "question": "In anarchist organizations, there should be neither significant hierarchies based on skills or knowledge nor elected officials.",
     "effect": {
       "unit": 0,
       "spec": 0,
-      "fede": 0,
+      "fede": -1,
       "phil": 0,
       "meth": 0,
       "subj": 0,
@@ -408,11 +238,11 @@
     }
   },
   {
-    "question": "Lorem Ipsum",
+    "question": "Self-organisation is effective only when it is coordinated with other groups and shaped collectively.",
     "effect": {
       "unit": 0,
       "spec": 0,
-      "fede": 0,
+      "fede": 1,
       "phil": 0,
       "meth": 0,
       "subj": 0,
@@ -425,12 +255,12 @@
     }
   },
   {
-    "question": "Lorem Ipsum",
+    "question": "Consciousness determines existence.",
     "effect": {
       "unit": 0,
       "spec": 0,
       "fede": 0,
-      "phil": 0,
+      "phil": -1,
       "meth": 0,
       "subj": 0,
       "radi": 0,
@@ -442,12 +272,12 @@
     }
   },
   {
-    "question": "Lorem Ipsum",
+    "question": "Social change arises primarily from new ideas and values.",
     "effect": {
       "unit": 0,
       "spec": 0,
       "fede": 0,
-      "phil": 0,
+      "phil": -1,
       "meth": 0,
       "subj": 0,
       "radi": 0,
@@ -459,12 +289,12 @@
     }
   },
   {
-    "question": "Lorem Ipsum",
+    "question": "Material relations of production are the central driving force of human history.",
     "effect": {
       "unit": 0,
       "spec": 0,
       "fede": 0,
-      "phil": 0,
+      "phil": 1,
       "meth": 0,
       "subj": 0,
       "radi": 0,
@@ -476,12 +306,12 @@
     }
   },
   {
-    "question": "Lorem Ipsum",
+    "question": "Individual morality and ethics are the main driving forces of social change.",
     "effect": {
       "unit": 0,
       "spec": 0,
       "fede": 0,
-      "phil": 0,
+      "phil": -1,
       "meth": 0,
       "subj": 0,
       "radi": 0,
@@ -493,12 +323,12 @@
     }
   },
   {
-    "question": "Lorem Ipsum",
+    "question": "The relations of production and property determine the ideologies within society.",
     "effect": {
       "unit": 0,
       "spec": 0,
       "fede": 0,
-      "phil": 0,
+      "phil": 1,
       "meth": 0,
       "subj": 0,
       "radi": 0,
@@ -510,13 +340,13 @@
     }
   },
   {
-    "question": "Lorem Ipsum",
+    "question": "The best way to understand a society is to analyze its internal contradictions and trends.",
     "effect": {
       "unit": 0,
       "spec": 0,
       "fede": 0,
       "phil": 0,
-      "meth": 0,
+      "meth": 1,
       "subj": 0,
       "radi": 0,
       "mili": 0,
@@ -527,13 +357,13 @@
     }
   },
   {
-    "question": "Lorem Ipsum",
+    "question": "Analyses of society should primarily be based on sociological statistics and observable phenomena.",
     "effect": {
       "unit": 0,
       "spec": 0,
       "fede": 0,
       "phil": 0,
-      "meth": 0,
+      "meth": -1,
       "subj": 0,
       "radi": 0,
       "mili": 0,
@@ -544,13 +374,13 @@
     }
   },
   {
-    "question": "Lorem Ipsum",
+    "question": "Individual social problems can be identified and solved in isolation based on measurable data.",
     "effect": {
       "unit": 0,
       "spec": 0,
       "fede": 0,
       "phil": 0,
-      "meth": 0,
+      "meth": -1,
       "subj": 0,
       "radi": 0,
       "mili": 0,
@@ -561,13 +391,13 @@
     }
   },
   {
-    "question": "Lorem Ipsum",
+    "question": "If a political analysis cannot be refuted or confirmed using concrete data, it is not a valid basis.",
     "effect": {
       "unit": 0,
       "spec": 0,
       "fede": 0,
       "phil": 0,
-      "meth": 0,
+      "meth": -1,
       "subj": 0,
       "radi": 0,
       "mili": 0,
@@ -578,13 +408,13 @@
     }
   },
   {
-    "question": "Lorem Ipsum",
+    "question": "Social developments are not linear or predictable; rather, they are constantly in a state of flux due to their internal contradictions.",
     "effect": {
       "unit": 0,
       "spec": 0,
       "fede": 0,
       "phil": 0,
-      "meth": 0,
+      "meth": 1,
       "subj": 0,
       "radi": 0,
       "mili": 0,
@@ -595,14 +425,14 @@
     }
   },
   {
-    "question": "Lorem Ipsum",
+    "question": "Humanity is primarily divided along lines of gender, nationality, ethnicity, religion, and other identities.",
     "effect": {
       "unit": 0,
       "spec": 0,
       "fede": 0,
       "phil": 0,
       "meth": 0,
-      "subj": 0,
+      "subj": -1,
       "radi": 0,
       "mili": 0,
       "focu": 0,
@@ -612,14 +442,14 @@
     }
   },
   {
-    "question": "Lorem Ipsum",
+    "question": "A socially just society can only be achieved through the recognition and promotion of specific identities.",
     "effect": {
       "unit": 0,
       "spec": 0,
       "fede": 0,
       "phil": 0,
       "meth": 0,
-      "subj": 0,
+      "subj": -1,
       "radi": 0,
       "mili": 0,
       "focu": 0,
@@ -629,14 +459,14 @@
     }
   },
   {
-    "question": "Lorem Ipsum",
+    "question": "The defining characteristic of a society's exploited class is its economic leverage for change.",
     "effect": {
       "unit": 0,
       "spec": 0,
       "fede": 0,
       "phil": 0,
       "meth": 0,
-      "subj": 0,
+      "subj": 1,
       "radi": 0,
       "mili": 0,
       "focu": 0,
@@ -646,14 +476,14 @@
     }
   },
   {
-    "question": "Lorem Ipsum",
+    "question": "Discrimination and marginalization can be understood and combated independently of the economic base.",
     "effect": {
       "unit": 0,
       "spec": 0,
       "fede": 0,
       "phil": 0,
       "meth": 0,
-      "subj": 0,
+      "subj": -1,
       "radi": 0,
       "mili": 0,
       "focu": 0,
@@ -663,14 +493,14 @@
     }
   },
   {
-    "question": "Lorem Ipsum",
+    "question": "The consistent dismantling of class society automatically leads to the abolition of all forms of oppression.",
     "effect": {
       "unit": 0,
       "spec": 0,
       "fede": 0,
       "phil": 0,
       "meth": 0,
-      "subj": 0,
+      "subj": 1,
       "radi": 0,
       "mili": 0,
       "focu": 0,
@@ -680,7 +510,7 @@
     }
   },
   {
-    "question": "Lorem Ipsum",
+    "question": "Capitalism can be overcome through gradual reforms without a radical upheaval of the existing order.",
     "effect": {
       "unit": 0,
       "spec": 0,
@@ -688,7 +518,7 @@
       "phil": 0,
       "meth": 0,
       "subj": 0,
-      "radi": 0,
+      "radi": -1,
       "mili": 0,
       "focu": 0,
       "gend": 0,
@@ -697,7 +527,7 @@
     }
   },
   {
-    "question": "Lorem Ipsum",
+    "question": "Cooperatives and the petty bourgeoisie (retailers, artists, freelancers) are revolutionary partners from an economic perspective.",
     "effect": {
       "unit": 0,
       "spec": 0,
@@ -705,7 +535,7 @@
       "phil": 0,
       "meth": 0,
       "subj": 0,
-      "radi": 0,
+      "radi": -1,
       "mili": 0,
       "focu": 0,
       "gend": 0,
@@ -714,7 +544,7 @@
     }
   },
   {
-    "question": "Lorem Ipsum",
+    "question": "It is worthwhile to improve the conditions of the struggle through parliamentary participation and elections.",
     "effect": {
       "unit": 0,
       "spec": 0,
@@ -722,7 +552,7 @@
       "phil": 0,
       "meth": 0,
       "subj": 0,
-      "radi": 0,
+      "radi": -1,
       "mili": 0,
       "focu": 0,
       "gend": 0,
@@ -731,7 +561,7 @@
     }
   },
   {
-    "question": "Lorem Ipsum",
+    "question": "A left-wing government is preferable to a right-wing government because it can also implement positive changes.",
     "effect": {
       "unit": 0,
       "spec": 0,
@@ -739,7 +569,7 @@
       "phil": 0,
       "meth": 0,
       "subj": 0,
-      "radi": 0,
+      "radi": -1,
       "mili": 0,
       "focu": 0,
       "gend": 0,
@@ -748,7 +578,7 @@
     }
   },
   {
-    "question": "Lorem Ipsum",
+    "question": "Reforms enforced through pressure from the masses stabilize the system rather than challenge it.",
     "effect": {
       "unit": 0,
       "spec": 0,
@@ -756,7 +586,7 @@
       "phil": 0,
       "meth": 0,
       "subj": 0,
-      "radi": 0,
+      "radi": 1,
       "mili": 0,
       "focu": 0,
       "gend": 0,
@@ -765,7 +595,7 @@
     }
   },
   {
-    "question": "Lorem Ipsum",
+    "question": "Revolutionary violence, such as the guillotine, is unacceptable, no matter how evil a person may be.",
     "effect": {
       "unit": 0,
       "spec": 0,
@@ -774,7 +604,7 @@
       "meth": 0,
       "subj": 0,
       "radi": 0,
-      "mili": 0,
+      "mili": -1,
       "focu": 0,
       "gend": 0,
       "prog": 0,
@@ -782,7 +612,7 @@
     }
   },
   {
-    "question": "Lorem Ipsum",
+    "question": "Oppressed groups have the right to defend themselves against violence with counter-violence.",
     "effect": {
       "unit": 0,
       "spec": 0,
@@ -791,7 +621,7 @@
       "meth": 0,
       "subj": 0,
       "radi": 0,
-      "mili": 0,
+      "mili": 1,
       "focu": 0,
       "gend": 0,
       "prog": 0,
@@ -799,7 +629,7 @@
     }
   },
   {
-    "question": "Lorem Ipsum",
+    "question": "Any form of violence can inevitably lead to new forms of domination and should therefore be rejected.",
     "effect": {
       "unit": 0,
       "spec": 0,
@@ -808,7 +638,7 @@
       "meth": 0,
       "subj": 0,
       "radi": 0,
-      "mili": 0,
+      "mili": -1,
       "focu": 0,
       "gend": 0,
       "prog": 0,
@@ -816,7 +646,7 @@
     }
   },
   {
-    "question": "Lorem Ipsum",
+    "question": "Revolutionary movements must be prepared to resist repression by any means necessary, even if those means end bloody.",
     "effect": {
       "unit": 0,
       "spec": 0,
@@ -825,7 +655,7 @@
       "meth": 0,
       "subj": 0,
       "radi": 0,
-      "mili": 0,
+      "mili": 1,
       "focu": 0,
       "gend": 0,
       "prog": 0,
@@ -833,7 +663,7 @@
     }
   },
   {
-    "question": "Lorem Ipsum",
+    "question": "A liberated society cannot be created through violence, but only by building nonviolent structures.",
     "effect": {
       "unit": 0,
       "spec": 0,
@@ -842,7 +672,7 @@
       "meth": 0,
       "subj": 0,
       "radi": 0,
-      "mili": 0,
+      "mili": -1,
       "focu": 0,
       "gend": 0,
       "prog": 0,
@@ -850,7 +680,7 @@
     }
   },
   {
-    "question": "Lorem Ipsum",
+    "question": "Counterpower arises primarily through long-term organizing in the workplace, in the neighborhood, or in universities.",
     "effect": {
       "unit": 0,
       "spec": 0,
@@ -860,14 +690,14 @@
       "subj": 0,
       "radi": 0,
       "mili": 0,
-      "focu": 0,
+      "focu": -1,
       "gend": 0,
       "prog": 0,
       "stru": 0
     }
   },
   {
-    "question": "Lorem Ipsum",
+    "question": "Self-organizing in everyday life empowers people more than large, high-profile protests or campaigns.",
     "effect": {
       "unit": 0,
       "spec": 0,
@@ -877,14 +707,14 @@
       "subj": 0,
       "radi": 0,
       "mili": 0,
-      "focu": 0,
+      "focu": -1,
       "gend": 0,
       "prog": 0,
       "stru": 0
     }
   },
   {
-    "question": "Lorem Ipsum",
+    "question": "Without spectacular, high-profile actions, a movement will fade away, no matter how self-organized it is.",
     "effect": {
       "unit": 0,
       "spec": 0,
@@ -894,14 +724,14 @@
       "subj": 0,
       "radi": 0,
       "mili": 0,
-      "focu": 0,
+      "focu": 1,
       "gend": 0,
       "prog": 0,
       "stru": 0
     }
   },
   {
-    "question": "Lorem Ipsum",
+    "question": "Campaigning on specific issues can mobilize more people than grassroots work in everyday life.",
     "effect": {
       "unit": 0,
       "spec": 0,
@@ -911,14 +741,14 @@
       "subj": 0,
       "radi": 0,
       "mili": 0,
-      "focu": 0,
+      "focu": 1,
       "gend": 0,
       "prog": 0,
       "stru": 0
     }
   },
   {
-    "question": "Lorem Ipsum",
+    "question": "Large, media-friendly campaigns quickly fizzle out if they aren't backed by grassroots structures that have grown over the years.",
     "effect": {
       "unit": 0,
       "spec": 0,
@@ -928,14 +758,14 @@
       "subj": 0,
       "radi": 0,
       "mili": 0,
-      "focu": 0,
+      "focu": 1,
       "gend": 0,
       "prog": 0,
       "stru": 0
     }
   },
   {
-    "question": "Lorem Ipsum",
+    "question": "Only the abolition of gender will truly achieve equality between trans and cis people.",
     "effect": {
       "unit": 0,
       "spec": 0,
@@ -946,13 +776,13 @@
       "radi": 0,
       "mili": 0,
       "focu": 0,
-      "gend": 0,
+      "gend": 1,
       "prog": 0,
       "stru": 0
     }
   },
   {
-    "question": "Lorem Ipsum",
+    "question": "Sexual freedom goes hand in hand with the abolition of both normative and queer identities.",
     "effect": {
       "unit": 0,
       "spec": 0,
@@ -963,13 +793,13 @@
       "radi": 0,
       "mili": 0,
       "focu": 0,
-      "gend": 0,
+      "gend": 1,
       "prog": 0,
       "stru": 0
     }
   },
   {
-    "question": "Lorem Ipsum",
+    "question": "Women's liberation will be complete once the category “woman” and gendered language, culture, and infrastructure no longer exist.",
     "effect": {
       "unit": 0,
       "spec": 0,
@@ -980,13 +810,13 @@
       "radi": 0,
       "mili": 0,
       "focu": 0,
-      "gend": 0,
+      "gend": 1,
       "prog": 0,
       "stru": 0
     }
   },
   {
-    "question": "Lorem Ipsum",
+    "question": "Genders will always exist, which is why equality and recognition of all genders are essential.",
     "effect": {
       "unit": 0,
       "spec": 0,
@@ -997,13 +827,13 @@
       "radi": 0,
       "mili": 0,
       "focu": 0,
-      "gend": 0,
+      "gend": -1,
       "prog": 0,
       "stru": 0
     }
   },
   {
-    "question": "Lorem Ipsum",
+    "question": "Biological foundations give rise to social gender characteristics that must be actively combated or regulated.",
     "effect": {
       "unit": 0,
       "spec": 0,
@@ -1014,13 +844,13 @@
       "radi": 0,
       "mili": 0,
       "focu": 0,
-      "gend": 0,
+      "gend": -1,
       "prog": 0,
       "stru": 0
     }
   },
   {
-    "question": "Lorem Ipsum",
+    "question": "The development of the productive forces is necessary to minimize strenuous and time-consuming work and to create more time for creativity.",
     "effect": {
       "unit": 0,
       "spec": 0,
@@ -1032,12 +862,12 @@
       "mili": 0,
       "focu": 0,
       "gend": 0,
-      "prog": 0,
+      "prog": 1,
       "stru": 0
     }
   },
   {
-    "question": "Lorem Ipsum",
+    "question": "Humans should not play God. Genetic engineering and interference with evolution must be rejected.",
     "effect": {
       "unit": 0,
       "spec": 0,
@@ -1049,12 +879,12 @@
       "mili": 0,
       "focu": 0,
       "gend": 0,
-      "prog": 0,
+      "prog": -1,
       "stru": 0
     }
   },
   {
-    "question": "Lorem Ipsum",
+    "question": "The increasing technologicalization of humanity alienates people from nature and should therefore be curbed.",
     "effect": {
       "unit": 0,
       "spec": 0,
@@ -1066,12 +896,12 @@
       "mili": 0,
       "focu": 0,
       "gend": 0,
-      "prog": 0,
+      "prog": -1,
       "stru": 0
     }
   },
   {
-    "question": "Lorem Ipsum",
+    "question": "The scarcity of resources on Earth necessitates that, over time, humans explore and colonize other planets.",
     "effect": {
       "unit": 0,
       "spec": 0,
@@ -1083,12 +913,12 @@
       "mili": 0,
       "focu": 0,
       "gend": 0,
-      "prog": 0,
+      "prog": 1,
       "stru": 0
     }
   },
   {
-    "question": "Lorem Ipsum",
+    "question": "Artificial intelligence, robotics, and automation are useful technologies for a highly complex society.",
     "effect": {
       "unit": 0,
       "spec": 0,
@@ -1100,12 +930,12 @@
       "mili": 0,
       "focu": 0,
       "gend": 0,
-      "prog": 0,
+      "prog": 1,
       "stru": 0
     }
   },
   {
-    "question": "Lorem Ipsum",
+    "question": "Standards and uniformity are useful and necessary for organizing complex production chains.",
     "effect": {
       "unit": 0,
       "spec": 0,
@@ -1118,11 +948,11 @@
       "focu": 0,
       "gend": 0,
       "prog": 0,
-      "stru": 0
+      "stru": 1
     }
   },
   {
-    "question": "Lorem Ipsum",
+    "question": "In a liberated society, rules are still needed that can lead to sanctions or penalties in the event of violations.",
     "effect": {
       "unit": 0,
       "spec": 0,
@@ -1135,11 +965,11 @@
       "focu": 0,
       "gend": 0,
       "prog": 0,
-      "stru": 0
+      "stru": 1
     }
   },
   {
-    "question": "Lorem Ipsum",
+    "question": "A certain portion of production must be planned centrally and for the long term, by trained experts.",
     "effect": {
       "unit": 0,
       "spec": 0,
@@ -1152,11 +982,11 @@
       "focu": 0,
       "gend": 0,
       "prog": 0,
-      "stru": 0
+      "stru": 1
     }
   },
   {
-    "question": "Lorem Ipsum",
+    "question": "In an anarchist society, everyone should have the opportunity to express their opinion on every decision.",
     "effect": {
       "unit": 0,
       "spec": 0,
@@ -1169,11 +999,11 @@
       "focu": 0,
       "gend": 0,
       "prog": 0,
-      "stru": 0
+      "stru": -1
     }
   },
   {
-    "question": "Lorem Ipsum",
+    "question": "Anarchy means that there is no longer any form of authority—not even mayors, chairpersons, or other officials.",
     "effect": {
       "unit": 0,
       "spec": 0,
@@ -1186,7 +1016,7 @@
       "focu": 0,
       "gend": 0,
       "prog": 0,
-      "stru": 0
+      "stru": -1
     }
   }
 ]
